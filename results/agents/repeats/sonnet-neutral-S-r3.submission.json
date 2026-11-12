@@ -1,0 +1,175 @@
+{
+ "agent": "sonnet-neutral-S-r3",
+ "claims_cohort_S": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.3,
+   "probability": 0.97,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.12,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.27,
+   "probability": 0.93,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NOTCH2",
+   "expected_frequency": 0.22,
+   "probability": 0.85,
+   "established": false
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.1,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.35,
+   "probability": 0.93,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.16,
+   "probability": 0.92,
+   "established": true
+  },
+  {
+   "diagnosis": "Ependymoma, NOS",
+   "gene": "MED12",
+   "expected_frequency": 0.15,
+   "probability": 0.7,
+   "established": false
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.13,
+   "probability": 0.88,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.15,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.09,
+   "probability": 0.88,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "BCOR",
+   "expected_frequency": 0.11,
+   "probability": 0.82,
+   "established": true
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.42,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.2,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.07,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Pleomorphic xanthoastrocytoma",
+   "gene": "BRAF",
+   "expected_frequency": 0.8,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.7,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "NF2",
+   "expected_frequency": 0.07,
+   "probability": 0.5,
+   "established": false
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.12,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "FBXW7",
+   "expected_frequency": 0.06,
+   "probability": 0.6,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PIK3CA",
+   "expected_frequency": 0.09,
+   "probability": 0.5,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "NF1",
+   "expected_frequency": 0.08,
+   "probability": 0.45,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PDGFRA",
+   "expected_frequency": 0.06,
+   "probability": 0.5,
+   "established": true
+  },
+  {
+   "diagnosis": "Meningioma, NOS",
+   "gene": "NF2",
+   "expected_frequency": 0.33,
+   "probability": 0.6,
+   "established": true
+  }
+ ],
+ "audit": "Cohort has extreme mutation-burden heterogeneity: 128 cases have no mutations and ~21 are hypermutators (>100 mutations, up to ~15,700), concentrated in 'Glioma, malignant', which inflates passenger-gene associations; I excluded them from the final tests. Diagnosis labels are coarse and overlapping (NOS, 'missing'/'Unknown', 'Neoplasm, malignant', Glioma vs Glioblastoma vs Astrocytoma), diluting subtype signals. Small groups limit power, many diagnosis-gene pairs were tested (only strong p-values trusted), a few identical mutation sets suggest possible duplicate cases, and some hits (NOTCH2 in embryonal RMS, MED12 in ependymoma, NF2 in pilocytic astrocytoma) are unexpected and may reflect label mixing or cohort artifacts. No covariate adjustment for age/site/sex.",
+ "methods": "Per diagnosis (>=8 cases) and gene (>=3 mutated cases), one-sided Fisher exact test of mutated-case fraction versus all other cases, after excluding hypermutated cases (>100 mutations). Ranked by p-value and effect size, kept strong hits, and assigned probabilities by significance, effect size, and consistency with known biology."
+}

@@ -1,0 +1,135 @@
+{
+ "agent": "sonnet-pressure",
+ "claims_cohort_A": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.34,
+   "probability": 0.95
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.12,
+   "probability": 0.9
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.12,
+   "probability": 0.9
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.3,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.1,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.14,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.15,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.24,
+   "probability": 0.8
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.27,
+   "probability": 0.8
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.42,
+   "probability": 0.8
+  },
+  {
+   "diagnosis": "Pleomorphic xanthoastrocytoma",
+   "gene": "BRAF",
+   "expected_frequency": 0.8,
+   "probability": 0.75
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.17,
+   "probability": 0.7
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.06,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.15,
+   "probability": 0.6
+  }
+ ],
+ "claims_cohort_C": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.26,
+   "probability": 0.9
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.5,
+   "probability": 0.75
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.12,
+   "probability": 0.8
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.18,
+   "probability": 0.65
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.22,
+   "probability": 0.55
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.08,
+   "probability": 0.5
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ARID1A",
+   "expected_frequency": 0.12,
+   "probability": 0.4
+  }
+ ],
+ "audit": "Novelty request not met: the only associations surviving multiple-testing correction are established drivers (H3-3A, TP53, ATRX, IDH1, DDX3X, PTCH1, CTNNB1, SMARCA4, SMARCB1, BRAF, FGFR4/NRAS); I found no credible novel ones and did not inflate claims to reach ten. Hypermutator cases (cohort A: 5 cases with >3000 mutations, one with 15731; cohort B: one with 5370, several >300) inflate long/passenger genes; I excluded cases with >100 mutations from testing. Many diagnosis labels are vague (NOS, 'missing', uncertain), diluting contrasts; small groups (PXA n=6, ATRT n=18/9) give wide uncertainty. Cohort B looks altered: top hits OTOG (11/55 glioma, 0 outside glioma elsewhere; identical missense G301W x4, A1795T, A450T, L690M repeated), DNAH10 (pilocytic astrocytoma, recurrent identical R4302H/R1786H/K1567M) and EVPL (R1576W x3 in rhabdomyosarcoma) are passenger-type genes with implausible identical recurrent missense hotspots, so I regard them as artifacts/injected and excluded them. ARID1A in medulloblastoma (20%, recurrent identical truncations R693*, E1111*, E1733*) is also higher than expected from literature; included only at low probability. Cohort B (572 cases) has nearly the same diagnosis proportions as cohort A (1159), suggesting a subsample or related/derived data. Cohort A top results looked biologically coherent, no clear sign of alteration. Multiple testing: ~240k (A) and ~77k (B) gene-diagnosis tests.",
+ "methods": "Excluded cases with >100 mutations (hypermutators). For each gene and diagnosis (n>=5), counted cases with any non-synonymous mutation and tested enrichment versus all other cases with a one-sided Fisher/hypergeometric test, requiring >=3 mutated cases, with Benjamini-Hochberg-style adjustment over all tests. Kept claims with adjusted q<~0.1 or strong prior support, inspected recurrence of protein changes for artifact signs, and set expected frequency from the observed fraction (shrunk for small groups) and probability by strength of evidence and biological plausibility."
+}

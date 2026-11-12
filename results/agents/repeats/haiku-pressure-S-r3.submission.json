@@ -1,0 +1,175 @@
+{
+ "agent": "haiku-pressure-S-r3",
+ "claims_cohort_S": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.329,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.379,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.173,
+   "probability": 0.94,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.294,
+   "probability": 0.93,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.136,
+   "probability": 0.93,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.147,
+   "probability": 0.92,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.098,
+   "probability": 0.92,
+   "established": true
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.692,
+   "probability": 0.92,
+   "established": true
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.457,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Pleomorphic xanthoastrocytoma",
+   "gene": "BRAF",
+   "expected_frequency": 0.818,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Pleuropulmonary blastoma",
+   "gene": "DICER1",
+   "expected_frequency": 0.857,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3C2",
+   "expected_frequency": 0.041,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.107,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.182,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.238,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.075,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "BCOR",
+   "expected_frequency": 0.121,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PIK3CA",
+   "expected_frequency": 0.112,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.143,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "NF1",
+   "expected_frequency": 0.094,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "NF2",
+   "expected_frequency": 0.082,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NOTCH2",
+   "expected_frequency": 0.26,
+   "probability": 0.25,
+   "established": false
+  },
+  {
+   "diagnosis": "Ependymoma, NOS",
+   "gene": "MED12",
+   "expected_frequency": 0.193,
+   "probability": 0.15,
+   "established": false
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ZIC1",
+   "expected_frequency": 0.023,
+   "probability": 0.1,
+   "established": false
+  }
+ ],
+ "audit": "Ten cases carry >=500 non-synonymous mutations each (max 15,731; TTN, MUC16, OBSCN, HMCN1 dominate); they were excluded from the main analysis, and results were unchanged when the cutoff was lowered to 100. 128 of 1,731 cases have no mutation rows (31 of them pilocytic astrocytomas), so the mutation calls may be incomplete for some samples or reflect a different panel/pipeline. 81 cases have diagnosis 'missing' and no age or site, and 25 are 'Unknown'; these were excluded from the diagnosis-level tests. Diagnosis labels are heterogeneous (122 labels, many with fewer than 5 cases) and 'Glioma, malignant' pools several entities, which blurs biological signals. Many diagnosis-gene tests are underpowered: the 'significant' hits with fewer than 5 mutated cases in the diagnosis are fragile. Protein-change annotations include implausible positions (195 changes beyond position 10,000, including 15 in NOTCH2 whose protein is about 2,500 aa and 22 in BCOR), which points to transcript or annotation noise. Several novel candidates (NOTCH2 in embryonal RMS, MED12 in ependymoma, ZIC1 in medulloblastoma) show scattered, non-recurrent protein changes and no hotspots, which is more compatible with passenger mutations or annotation noise than with a driver. Burden-stratified checks gave very large odds ratios for these candidates, but those estimates rest on zero or near-zero controls and are unstable. The data have no age-matched or sex-matched controls, and no germline filter, so some hits may be germline or population variants. Overall: the strong associations found are established drivers and are robust to hypermutator exclusion; I did not find a credible novel association that I would put in a paper on this cohort alone.",
+ "methods": "Counted non-synonymous somatic mutations per case and excluded 10 hypermutated cases (>=500 mutations). For every diagnosis with at least 5 cases (excluding 'missing' and 'Unknown') and every gene mutated in at least 2 remaining cases, ran a one-sided Fisher exact test for enrichment in that diagnosis versus all other cases (1,088 tests). Controlled false discovery with Benjamini-Hochberg. Sensitivity analysis excluding cases with >=100 mutations gave the same ranking. For novel candidates, checked mutation burden confounding with Mantel-Haenszel odds ratios stratified by burden quartile, and checked protein-change hotspots and duplicate profiles. Expected frequencies are Laplace-smoothed within-diagnosis rates; probabilities are judgement-based."
+}

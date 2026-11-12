@@ -1,0 +1,38 @@
+{
+ "seed": "checkpoint-v0.1",
+ "planted_effects": [
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NOTCH2",
+   "carriers_in_label": 19,
+   "label_size": 75,
+   "frequency_in_label": 0.253,
+   "frequency_elsewhere": 0.0036
+  },
+  {
+   "diagnosis": "Ependymoma, NOS",
+   "gene": "MED12",
+   "carriers_in_label": 15,
+   "label_size": 81,
+   "frequency_in_label": 0.185,
+   "frequency_elsewhere": 0.0055
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "BCOR",
+   "carriers_in_label": 25,
+   "label_size": 212,
+   "frequency_in_label": 0.118,
+   "frequency_elsewhere": 0.0146
+  },
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "NF2",
+   "carriers_in_label": 13,
+   "label_size": 168,
+   "frequency_in_label": 0.077,
+   "frequency_elsewhere": 0.0071
+  }
+ ],
+ "method": "unique synthetic protein changes in established cancer genes with background carriers"
+}

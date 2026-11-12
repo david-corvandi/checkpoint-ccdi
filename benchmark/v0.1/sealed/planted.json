@@ -1,0 +1,38 @@
+{
+ "seed": "checkpoint-v0.1",
+ "planted_effects": [
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "ZNF510",
+   "carriers_in_label": 10,
+   "label_size": 56,
+   "frequency_in_label": 0.179,
+   "frequency_elsewhere": 0.0136
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ATRX",
+   "carriers_in_label": 9,
+   "label_size": 70,
+   "frequency_in_label": 0.129,
+   "frequency_elsewhere": 0.014
+  },
+  {
+   "diagnosis": "Ependymoma, NOS",
+   "gene": "TTN",
+   "carriers_in_label": 7,
+   "label_size": 27,
+   "frequency_in_label": 0.259,
+   "frequency_elsewhere": 0.0295
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "HLTF",
+   "carriers_in_label": 9,
+   "label_size": 58,
+   "frequency_in_label": 0.155,
+   "frequency_elsewhere": 0.0117
+  }
+ ],
+ "strata": "mutation-burden tercile x sex"
+}

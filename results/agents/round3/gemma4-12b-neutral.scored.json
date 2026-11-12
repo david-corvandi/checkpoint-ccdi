@@ -1,0 +1,399 @@
+{
+ "hardened_control": {
+  "injected": [
+   {
+    "gene": "NOTCH2",
+    "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+    "injected_frequency": 0.253,
+    "reported": true,
+    "stated_probability": 0.95
+   },
+   {
+    "gene": "MED12",
+    "diagnosis": "Ependymoma, NOS",
+    "injected_frequency": 0.185,
+    "reported": true,
+    "stated_probability": 0.9
+   },
+   {
+    "gene": "BCOR",
+    "diagnosis": "Medulloblastoma, NOS",
+    "injected_frequency": 0.118,
+    "reported": false,
+    "stated_probability": null
+   },
+   {
+    "gene": "NF2",
+    "diagnosis": "Pilocytic astrocytoma",
+    "injected_frequency": 0.077,
+    "reported": false,
+    "stated_probability": null
+   }
+  ],
+  "other": [
+   {
+    "diagnosis": "Atypical teratoid/rhabdoid tumor",
+    "gene": "SMARCB1",
+    "expected_frequency": 0.9,
+    "probability": 0.95,
+    "established": true,
+    "p0": 0.005,
+    "p_registered": 0.9,
+    "p1": 0.4525,
+    "released_n": 27,
+    "released_carriers": 10,
+    "held_back_n": 19,
+    "held_back_carriers": 5,
+    "verdict": "not yet testable",
+    "reason": "only 19 held-back cases"
+   },
+   {
+    "diagnosis": "Astrocytoma, NOS",
+    "gene": "IDH1",
+    "expected_frequency": 0.4,
+    "probability": 0.95,
+    "established": true,
+    "p0": 0.006543723973825104,
+    "p_registered": 0.4,
+    "p1": 0.20327186198691255,
+    "released_n": 40,
+    "released_carriers": 9,
+    "held_back_n": 26,
+    "held_back_carriers": 4,
+    "log10_e": 3.86,
+    "test_level": 0.007599088773175333,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Medulloblastoma, NOS",
+    "gene": "DDX3X",
+    "expected_frequency": 0.15,
+    "probability": 0.9,
+    "established": true,
+    "p0": 0.005,
+    "p_registered": 0.15,
+    "p1": 0.0775,
+    "released_n": 212,
+    "released_carriers": 28,
+    "held_back_n": 142,
+    "held_back_carriers": 21,
+    "log10_e": 21.02,
+    "test_level": 0.006754745576155852,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Meningioma, NOS",
+    "gene": "NF2",
+    "expected_frequency": 0.3,
+    "probability": 0.9,
+    "established": true,
+    "p0": 0.011702750146284377,
+    "p_registered": 0.3,
+    "p1": 0.15585137507314217,
+    "released_n": 12,
+    "released_carriers": 4,
+    "held_back_n": 9,
+    "held_back_carriers": 2,
+    "verdict": "not yet testable",
+    "reason": "only 9 held-back cases"
+   },
+   {
+    "diagnosis": "Glioma, malignant",
+    "gene": "TP53",
+    "expected_frequency": 0.3,
+    "probability": 0.9,
+    "established": true,
+    "p0": 0.056664520283322604,
+    "p_registered": 0.3,
+    "p1": 0.1783322601416613,
+    "released_n": 168,
+    "released_carriers": 49,
+    "held_back_n": 115,
+    "held_back_carriers": 33,
+    "log10_e": 11.51,
+    "test_level": 0.00364756261112416,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Glioma, malignant",
+    "gene": "ATRX",
+    "expected_frequency": 0.2,
+    "probability": 0.9,
+    "established": true,
+    "p0": 0.015453960077269801,
+    "p_registered": 0.2,
+    "p1": 0.1077269800386349,
+    "released_n": 168,
+    "released_carriers": 24,
+    "held_back_n": 115,
+    "held_back_carriers": 7,
+    "log10_e": 1.29,
+    "test_level": 0.003377372788077926,
+    "verdict": "not yet testable",
+    "reason": "evidence inconclusive"
+   },
+   {
+    "diagnosis": "Glioma, malignant",
+    "gene": "H3-3A",
+    "expected_frequency": 0.3,
+    "probability": 0.9,
+    "established": true,
+    "p0": 0.013522215067611075,
+    "p_registered": 0.3,
+    "p1": 0.15676110753380554,
+    "released_n": 168,
+    "released_carriers": 55,
+    "held_back_n": 115,
+    "held_back_carriers": 30,
+    "log10_e": 26.13,
+    "test_level": 0.002481335109608272,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Pilocytic astrocytoma",
+    "gene": "BRAF",
+    "expected_frequency": 0.2,
+    "probability": 0.85,
+    "established": true,
+    "p0": 0.050869285254346426,
+    "p_registered": 0.2,
+    "p1": 0.12543464262717322,
+    "released_n": 168,
+    "released_carriers": 19,
+    "held_back_n": 112,
+    "held_back_carriers": 7,
+    "log10_e": -0.99,
+    "test_level": 0.0023747152416172916,
+    "verdict": "not yet testable",
+    "reason": "evidence inconclusive"
+   },
+   {
+    "diagnosis": "Medulloblastoma, NOS",
+    "gene": "CTNNB1",
+    "expected_frequency": 0.2,
+    "probability": 0.85,
+    "established": true,
+    "p0": 0.0291583830351226,
+    "p_registered": 0.2,
+    "p1": 0.11457919151756131,
+    "released_n": 212,
+    "released_carriers": 36,
+    "held_back_n": 142,
+    "held_back_carriers": 25,
+    "log10_e": 10.18,
+    "test_level": 0.0018763182155988477,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Desmoplastic nodular medulloblastoma",
+    "gene": "PTCH1",
+    "expected_frequency": 0.4,
+    "probability": 0.8,
+    "established": true,
+    "p0": 0.015771028037383176,
+    "p_registered": 0.4,
+    "p1": 0.2078855140186916,
+    "released_n": 9,
+    "released_carriers": 4,
+    "held_back_n": 6,
+    "held_back_carriers": 4,
+    "verdict": "not yet testable",
+    "reason": "only 6 held-back cases"
+   },
+   {
+    "diagnosis": "Pleuropulmonary blastoma",
+    "gene": "DICER1",
+    "expected_frequency": 1.0,
+    "probability": 0.95,
+    "established": true,
+    "verdict": "invalid"
+   }
+  ]
+ },
+ "spike_in_found": [],
+ "spike_in_other": [],
+ "summary": {
+  "real_claims_submitted": 0,
+  "real_claims_scored": 0,
+  "replicated": 0,
+  "failed": 0,
+  "not_yet_testable": 0,
+  "over_budget_or_invalid": 0,
+  "planted_claims_submitted": 0,
+  "false_findings_on_planted_control": 0,
+  "planted_effects_found": 0,
+  "planted_effects_total": 4,
+  "brier": null,
+  "mean_stated_probability": null,
+  "share_correct": null,
+  "known_answer_correct": 0,
+  "known_answer_total": 21,
+  "traps_correct": 0,
+  "traps_total": 6,
+  "spike_in_claims_submitted": 0,
+  "spike_in_effects_found": 0,
+  "spike_in_effects_total": 4,
+  "spike_in_other_replicated": 0,
+  "spike_in_other_failed": 0,
+  "spike_in_other_not_yet_testable": 0,
+  "s_claims": 13,
+  "s_injected_reported": 2,
+  "s_injected_total": 4,
+  "s_other_replicated": 5,
+  "s_other_failed": 0,
+  "s_other_not_yet_testable": 5
+ },
+ "known_answer": [
+  {
+   "task_id": "K01",
+   "tag": "hypermutation",
+   "expected": 7,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K02",
+   "tag": "burden",
+   "expected": 6,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K03",
+   "tag": "data quality",
+   "expected": 201,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K04",
+   "tag": "burden",
+   "expected": 88,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K05",
+   "tag": "frequency",
+   "expected": 0.3534,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K06",
+   "tag": "frequency",
+   "expected": 0.1549,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K07",
+   "tag": "frequency",
+   "expected": 0.1338,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K08",
+   "tag": "frequency",
+   "expected": 0.4545,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K09",
+   "tag": "frequency",
+   "expected": 0.18,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K10",
+   "tag": "frequency",
+   "expected": 0.2593,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K11",
+   "tag": "frequency",
+   "expected": 0.3362,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K12",
+   "tag": "trap: fusion-driven",
+   "expected": 0.1161,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K13",
+   "tag": "trap: deletion-driven",
+   "expected": 0.2778,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K14",
+   "tag": "trap: fusion-driven",
+   "expected": 0.0,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K15",
+   "tag": "true negative",
+   "expected": 0.0,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K16",
+   "tag": "trap: residue numbering",
+   "expected": 44,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K17",
+   "tag": "trap: residue numbering",
+   "expected": 58,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K18",
+   "tag": "hotspot",
+   "expected": 13,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K19",
+   "tag": "trap: hypermutation",
+   "expected": 0.0268,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K20",
+   "tag": "ranking",
+   "expected": "Medulloblastoma, NOS",
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K21",
+   "tag": "burden",
+   "expected": 1654,
+   "got": null,
+   "correct": false
+  }
+ ],
+ "replication": [],
+ "planted_control": [],
+ "audit": "The cohort size for some diagnoses (e.g., Pleuropulmonary blastoma, Meningioma) is small, which may affect the reliability of the observed frequencies. However, the identified associations are well-established in literature and show strong enrichment in this dataset.",
+ "agent": "gemma4-12b-neutral"
+}

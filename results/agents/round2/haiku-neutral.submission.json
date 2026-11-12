@@ -1,0 +1,207 @@
+{
+ "agent": "haiku-neutral",
+ "claims_cohort_A": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.36,
+   "probability": 0.95
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.316,
+   "probability": 0.9
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.158,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "NF1",
+   "expected_frequency": 0.114,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PDGFRA",
+   "expected_frequency": 0.079,
+   "probability": 0.5
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PIK3CA",
+   "expected_frequency": 0.114,
+   "probability": 0.5
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3C2",
+   "expected_frequency": 0.053,
+   "probability": 0.55
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.16,
+   "probability": 0.9
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.139,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.132,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.111,
+   "probability": 0.8
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.069,
+   "probability": 0.7
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "FBXW7",
+   "expected_frequency": 0.083,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2C",
+   "expected_frequency": 0.062,
+   "probability": 0.5
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.276,
+   "probability": 0.75
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "TP53",
+   "expected_frequency": 0.379,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.458,
+   "probability": 0.8
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.192,
+   "probability": 0.8
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.173,
+   "probability": 0.75
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "KRAS",
+   "expected_frequency": 0.096,
+   "probability": 0.45
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.3,
+   "probability": 0.7
+  }
+ ],
+ "claims_cohort_C": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.276,
+   "probability": 0.9
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.259,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.138,
+   "probability": 0.7
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PTPN11",
+   "expected_frequency": 0.121,
+   "probability": 0.45
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.208,
+   "probability": 0.9
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.139,
+   "probability": 0.8
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ARID1A",
+   "expected_frequency": 0.208,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.111,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.097,
+   "probability": 0.55
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.545,
+   "probability": 0.65
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.462,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.185,
+   "probability": 0.6
+  }
+ ],
+ "audit": "Cohort A (1159 cases): 7 hypermutated cases (>500 non-synonymous mutations, up to 15,731 in [case id]) were excluded from testing; 71 cases with missing or 'Unknown' diagnosis were excluded; 54 cases lack age and 37 mutation rows lack protein_change. Many diagnoses are small (n<10) so their associations are weak. The strong signals (H3-3A K28M, BRAF V600E, CTNNB1 S33/G34, TP53 hotspots, SMARCB1 loss in ATRT, female predominance of CTNNB1 medulloblastoma) match known tumour biology, so this cohort looks like real data. Lower-confidence signals in large or passenger-like genes (AHNAK, DNAH6, ABCF1, GSE1 in medulloblastoma, q about 0.04-0.09, few non-hotspot events) were not reported. Cohort B (572 cases): 3 hypermutated cases were excluded ([case id] with 5,370 mutations; [case id] and [case id] with about 500 each, close to the threshold), 71 cases with missing or 'Unknown' diagnosis were excluded, and 27 cases lack age. Six genes showed near-exclusive enrichment in one diagnosis but are passenger-like: OTOG (11/11 mutated cases in glioma, 2 of 1152 in cohort A), DNAH10 (11 of 14 in pilocytic astrocytoma), DNAH11, FCGBP, EVPL and ARHGAP44. These are missense-dominated, non-recurrent and lack hotspots. Cohort B therefore looks altered or batch-affected in these genes, and I did not report them. The known driver signals in B (H3-3A, CTNNB1, DDX3X, TP53) are consistent with A, so the rest of B looks genuine. Both cohorts lack sequencing coverage, purity and ancestry information, which limits confidence in any single gene.",
+ "methods": "For each cohort I removed hypermutated cases (>500 mutation rows) and cases with missing or 'Unknown' diagnosis, then kept diagnoses with at least 8 cases. For each diagnosis and each gene mutated in at least 3 non-hypermutated cases, I ran a one-sided Fisher exact test of mutated fraction in that diagnosis versus all other diagnosed tumours in the cohort, with Benjamini-Hochberg correction across all tests within the cohort. I then reviewed the top hits for hotspot concentration (protein_change), per-case mutation burden, sex and site, and for passenger-like patterns, and kept only findings that were significant after correction, had a plausible mechanism, and were not dominated by large passenger-like genes. Expected frequency is a Laplace-smoothed observed fraction, (mutated+1)/(n+2), within the diagnosis. Probability is my judgment of replication, weighted by q-value, effect size, hotspot support and sample size."
+}

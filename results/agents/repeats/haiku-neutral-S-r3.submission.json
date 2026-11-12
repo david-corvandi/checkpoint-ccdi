@@ -1,0 +1,126 @@
+{
+ "agent": "haiku-neutral-S-r3",
+ "claims_cohort_S": [
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.375,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.3323,
+   "probability": 0.93,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.1714,
+   "probability": 0.93,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.2844,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.1338,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.4559,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.7083,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.0962,
+   "probability": 0.88,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.1347,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.2317,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Papillary carcinoma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.2419,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.18,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "BCOR",
+   "expected_frequency": 0.1197,
+   "probability": 0.78,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.1056,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.0728,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.14,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Meningioma, NOS",
+   "gene": "NF2",
+   "expected_frequency": 0.3462,
+   "probability": 0.6,
+   "established": true
+  }
+ ],
+ "audit": "Cohort: 1731 cases, 66,631 non-synonymous mutations, 122 free-text diagnosis labels, 107 sites. 21 cases carry >=100 mutations (max 15,731 in [case id], labelled 'Neoplasm, malignant'; several others in the thousands, mostly labelled Glioma or Medulloblastoma), which indicates hypermutation or a sample-quality/caller artifact. Primary analysis excludes them; with them included the top associations are essentially unchanged but gene-level counts shift. 106 cases have diagnosis 'missing' (81) or 'Unknown' (25) and were excluded from testing. 128 cases have no mutation rows, which I treated as mutation-negative; if these are unsequenced or low-coverage rather than truly wild-type, frequencies are underestimated. Diagnosis labels are heterogeneous and overlap (e.g. 'Glioma, malignant' mixes H3 K27M, IDH-mutant and other entities; 'Neoplasm, malignant' and 'Tumor cells, malignant' are not specific), so some group-level rates are mixtures. Groups are small (n = 11 to 40 for several claims), so effect sizes are unstable. Testing was one-sided Fisher exact per diagnosis x gene (208 tests, genes with >=3 mutated cases in the diagnosis), Benjamini-Hochberg corrected; I still regard many q-values as optimistic because the mutation calls show signs of noise: several protein changes are impossible for their gene length (e.g. NOTCH2 p.E127469G; NOTCH2 is about 2,471 aa) and the top hits in large genes (TTN, MUC16, OBSCN) are ignored as passenger-prone. Only non-synonymous SNVs/indels are present: no copy-number, fusion (e.g. KIAA1549-BRAF in pilocytic astrocytoma, PAX3/7-FOXO1 in alveolar RMS), germline filtering, purity or sequencing-centre metadata, so fusion-driven entities cannot be recovered and the analysis may be confounded by site and age. Excluded from claims despite nominal significance: MED12 in ependymoma (15/81, impossible-length changes, not an established association), NOTCH2 in embryonal RMS (19/74, mostly non-hotspot changes), NF2 in pilocytic astrocytoma and FBXW7 in medulloblastoma (not established and not confident). Claims are restricted to diagnosis-gene pairs with a known biological role; probabilities are my judgement of replication, lower for small groups.",
+ "methods": "I loaded cases.csv and mutations.csv with the Python standard library and checked keys, duplicates and label counts. I excluded cases with >=100 mutations and diagnoses 'missing' or 'Unknown'. For each diagnosis with n>=10 I built a gene-by-case mutation-presence table, compared each gene's frequency inside the diagnosis with the rest of the cohort, and kept genes with >=3 mutated cases in the diagnosis and a higher in-group rate. I computed one-sided Fisher exact p-values by hypergeometric summation, applied Benjamini-Hochberg across all tests, and checked the top hits against protein-change lists and site distribution to flag artifacts. expected_frequency is (a+0.5)/(n+1) of in-group mutated cases to avoid zeros on small groups; probability reflects strength of signal, biological plausibility and sample size, and established reflects my knowledge of the literature."
+}

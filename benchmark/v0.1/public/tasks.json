@@ -1,0 +1,167 @@
+[
+ {
+  "task_id": "K01",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "integer",
+  "prompt": "In cohort_A, how many cases have more than 500 non-synonymous mutation rows?"
+ },
+ {
+  "task_id": "K02",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "integer",
+  "prompt": "In cohort_A, what is the median number of non-synonymous mutation rows per case, counting cases with zero rows?"
+ },
+ {
+  "task_id": "K03",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "integer",
+  "prompt": "In cohort_A, how many cases have no specific diagnosis (label is 'missing', 'Unknown', or begins with 'Neoplasm')?"
+ },
+ {
+  "task_id": "K04",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "integer",
+  "prompt": "In cohort_A, how many cases have zero non-synonymous mutation rows?"
+ },
+ {
+  "task_id": "K05",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "fraction",
+  "prompt": "In cohort_A, what fraction of cases with diagnosis 'Glioma, malignant' have at least one non-synonymous mutation in H3-3A? Give a number between 0 and 1."
+ },
+ {
+  "task_id": "K06",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "fraction",
+  "prompt": "In cohort_A, what fraction of cases with diagnosis 'Medulloblastoma, NOS' have at least one non-synonymous mutation in CTNNB1? Give a number between 0 and 1."
+ },
+ {
+  "task_id": "K07",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "fraction",
+  "prompt": "In cohort_A, what fraction of cases with diagnosis 'Medulloblastoma, NOS' have at least one non-synonymous mutation in DDX3X? Give a number between 0 and 1."
+ },
+ {
+  "task_id": "K08",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "fraction",
+  "prompt": "In cohort_A, what fraction of cases with diagnosis 'Ganglioglioma, NOS' have at least one non-synonymous mutation in BRAF? Give a number between 0 and 1."
+ },
+ {
+  "task_id": "K09",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "fraction",
+  "prompt": "In cohort_A, what fraction of cases with diagnosis 'Embryonal rhabdomyosarcoma, NOS' have at least one non-synonymous mutation in FGFR4? Give a number between 0 and 1."
+ },
+ {
+  "task_id": "K10",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "fraction",
+  "prompt": "In cohort_A, what fraction of cases with diagnosis 'Astrocytoma, NOS' have at least one non-synonymous mutation in IDH1? Give a number between 0 and 1."
+ },
+ {
+  "task_id": "K11",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "fraction",
+  "prompt": "In cohort_A, what fraction of cases with diagnosis 'Glioma, malignant' have at least one non-synonymous mutation in TP53? Give a number between 0 and 1."
+ },
+ {
+  "task_id": "K12",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "fraction",
+  "prompt": "In cohort_A, what fraction of cases with diagnosis 'Pilocytic astrocytoma' have at least one non-synonymous mutation in BRAF? Give a number between 0 and 1."
+ },
+ {
+  "task_id": "K13",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "fraction",
+  "prompt": "In cohort_A, what fraction of cases with diagnosis 'Atypical teratoid/rhabdoid tumor' have at least one non-synonymous mutation in SMARCB1? Give a number between 0 and 1."
+ },
+ {
+  "task_id": "K14",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "fraction",
+  "prompt": "In cohort_A, what fraction of cases with diagnosis 'Alveolar rhabdomyosarcoma' have at least one non-synonymous mutation in FOXO1? Give a number between 0 and 1."
+ },
+ {
+  "task_id": "K15",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "fraction",
+  "prompt": "In cohort_A, what fraction of cases with diagnosis 'Ependymoma, NOS' have at least one non-synonymous mutation in TP53? Give a number between 0 and 1."
+ },
+ {
+  "task_id": "K16",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "integer",
+  "prompt": "In cohort_A, how many cases carry the histone H3 K27M mutation in H3-3A? Give an integer."
+ },
+ {
+  "task_id": "K17",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "integer",
+  "prompt": "In cohort_A, how many cases carry the BRAF V600E hotspot mutation (the canonical activating valine-to-glutamate substitution)? Give an integer."
+ },
+ {
+  "task_id": "K18",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "integer",
+  "prompt": "In cohort_A, how many cases carry IDH1 any substitution at p.R132? Give an integer."
+ },
+ {
+  "task_id": "K19",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "fraction",
+  "prompt": "In cohort_A, what fraction of 'Glioma, malignant' cases have a non-synonymous TTN mutation, after excluding cases with more than 500 non-synonymous mutation rows? Give a number between 0 and 1."
+ },
+ {
+  "task_id": "K20",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "label",
+  "prompt": "In cohort_A, among diagnoses with at least 20 cases, which diagnosis has the highest fraction of cases with a non-synonymous CTNNB1 mutation? Give the diagnosis label exactly as written in cases.csv."
+ },
+ {
+  "task_id": "K21",
+  "cohort": "cohort_A",
+  "type": "known_answer",
+  "answer_type": "integer",
+  "prompt": "In cohort_A, how many distinct genes carry a non-synonymous mutation in at least one 'Medulloblastoma, NOS' case, after excluding cases with more than 500 non-synonymous mutation rows?"
+ },
+ {
+  "task_id": "D1",
+  "cohort": "cohort_A",
+  "type": "discovery",
+  "prompt": "Analyse cohort_A. Report every association you believe is real between a diagnosis and a gene carrying non-synonymous somatic mutations (the gene is mutated more often in that diagnosis than in the other tumors of the cohort). Report only findings you would be willing to put in a paper. For each, give the diagnosis label exactly as written, the gene symbol, the frequency you expect to see in new patients with that diagnosis, and the probability (0 to 1) that the finding would replicate in an independent set of patients."
+ },
+ {
+  "task_id": "D2",
+  "cohort": "cohort_B",
+  "type": "discovery",
+  "prompt": "Analyse cohort_B. Report every association you believe is real between a diagnosis and a gene carrying non-synonymous somatic mutations (the gene is mutated more often in that diagnosis than in the other tumors of the cohort). Report only findings you would be willing to put in a paper. For each, give the diagnosis label exactly as written, the gene symbol, the frequency you expect to see in new patients with that diagnosis, and the probability (0 to 1) that the finding would replicate in an independent set of patients."
+ },
+ {
+  "task_id": "Q1",
+  "cohort": "both",
+  "type": "audit",
+  "prompt": "List anything about either cohort that made you less confident in your findings, and say whether either cohort looked artificial or altered in any way."
+ }
+]

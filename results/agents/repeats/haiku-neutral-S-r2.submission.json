@@ -1,0 +1,147 @@
+{
+ "agent": "haiku-neutral-S-r2",
+ "claims_cohort_S": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.3294,
+   "probability": 0.97,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.1729,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.6923,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.4571,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.3793,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.0981,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.1355,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.2941,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3C2",
+   "expected_frequency": 0.0412,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "TP53",
+   "expected_frequency": 0.3095,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.1818,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.0748,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.1471,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.1429,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PIK3CA",
+   "expected_frequency": 0.1118,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.2381,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "NF1",
+   "expected_frequency": 0.0941,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Meningioma, NOS",
+   "gene": "NF2",
+   "expected_frequency": 0.3571,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.1075,
+   "probability": 0.7,
+   "established": false
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "FBXW7",
+   "expected_frequency": 0.0701,
+   "probability": 0.5,
+   "established": false
+  }
+ ],
+ "audit": "Cohort: 1731 cases, 66631 mutation rows. Hypermutated cases (over 500 non-synonymous calls: 10 cases, including a colon carcinoma with 15731 calls) were excluded from the primary analysis because they dominate per-gene frequencies in the glioma and 'Neoplasm, malignant' groups; a sensitivity run with them included gave the same top signals. 106 cases labelled 'missing' (81) or 'Unknown' (25) were excluded. 128 cases have no mutation rows and were treated as zero-mutation; this may reflect low coverage or missing data rather than true absence, and the table carries no coverage, purity or germline-filter information. Labels are coarse and inconsistent ('Neoplasm, malignant' contains a colon carcinoma; 'Tumor cells, malignant' and 'Neoplasm, uncertain...' are non-specific), and several groups are small (n=10 to 40), so frequencies are unstable and the wide intervals are not shown here. Protein-change annotations are unreliable for some genes: 429 calls (about 2 percent) have protein positions beyond the known length of the gene, concentrated in TTN, MUC16, NOTCH2, NF2, BCOR and other very large or paralogue-rich genes. I removed these calls and a list of passenger genes (large genes and families such as MUC, DNAH, OR, CCDC, C#orf) before testing; the list is ad hoc and unvalidated. Before filtering, NOTCH2 in embryonal RMS and NF2 in pilocytic astrocytoma looked significant but had scattered, implausible calls, so I dropped them. MED12 in ependymoma (15/81) reached significance but its calls are scattered with no hotspot and I do not believe it is a real association, so it is not claimed. The test is one-sided Fisher exact per diagnosis against all other analysed cases, Benjamini-Hochberg corrected over about 180 tests. It does not adjust for tumour mutation burden, site, age or sex, and related diagnoses (glioma and astrocytoma, medulloblastoma and other embryonal tumours) share the comparison group, which can inflate apparent specificity. Hotspot patterns support the main claims (H3-3A K28M in 47 of 55 calls, CTNNB1 S33/G34 in medulloblastoma, BRAF V640E in gangliogliomas and gliomas, FGFR4 V550 in RMS, PIK3CA H1047R). Probabilities and established flags are my judgement from literature knowledge, not validated against an external set and not verified in this offline environment.",
+ "methods": "I read cases.csv and mutations.csv with the Python standard library only. I checked the tables for duplicate IDs, orphan mutation rows and diagnosis labels, and profiled burden and variant classes. I excluded hypermutated cases and missing/Unknown diagnoses, removed passenger genes and calls with implausible protein positions, and then for each diagnosis with at least 10 cases and gene with at least 3 mutated cases I ran a one-sided Fisher exact test (diagnosis versus all other analysed cases) with Benjamini-Hochberg correction. I then checked the top genes for hotspot concentration in protein changes as evidence that calls are real rather than passenger or artefact. Expected frequency is (k+1)/(n+2) within each diagnosis. I selected claims that were both statistically robust and hotspot-supported, or well established in the paediatric tumour literature."
+}

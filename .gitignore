@@ -1,0 +1,13 @@
+# Patient-level data is not published in this repository. It is rebuilt locally from the open GDC
+# files with: python -m checkpoint fetch && python -m checkpoint build && python -m checkpoint bench
+data/
+package/
+benchmark/*/public/cohort_*/
+benchmark/*/sealed/held_back/
+benchmark/*/sealed/id_map.json
+results/*/curator_flags.csv
+results/agents/**/*.transcript.jsonl
+
+__pycache__/
+*.pyc
+.DS_Store

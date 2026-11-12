@@ -1,0 +1,212 @@
+{
+ "agent": "claude-sonnet-5-5",
+ "answers": {
+  "K01": 7,
+  "K02": 6,
+  "K03": 201,
+  "K04": 88,
+  "K05": 0.3534,
+  "K06": 0.1549,
+  "K07": 0.1338,
+  "K08": 0.4545,
+  "K09": 0.18,
+  "K10": 0.2593,
+  "K11": 0.3362,
+  "K12": 0.1161,
+  "K13": 0.2778,
+  "K14": 0.0,
+  "K15": 0.0,
+  "K16": 44,
+  "K17": 58,
+  "K18": 13,
+  "K19": 0.0268,
+  "K20": "Medulloblastoma, NOS",
+  "K21": 1654
+ },
+ "claims_cohort_A": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.35,
+   "probability": 0.98
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.13,
+   "probability": 0.95
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.3,
+   "probability": 0.95
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.12,
+   "probability": 0.93
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.14,
+   "probability": 0.92
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.1,
+   "probability": 0.9
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.24,
+   "probability": 0.88
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.15,
+   "probability": 0.93
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.16,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.27,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Pleomorphic xanthoastrocytoma",
+   "gene": "BRAF",
+   "expected_frequency": 0.85,
+   "probability": 0.8
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.43,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.06,
+   "probability": 0.7
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.14,
+   "probability": 0.75
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3C2",
+   "expected_frequency": 0.04,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "FBXW7",
+   "expected_frequency": 0.07,
+   "probability": 0.65
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "NF1",
+   "expected_frequency": 0.1,
+   "probability": 0.65
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.6,
+   "probability": 0.65
+  },
+  {
+   "diagnosis": "Craniopharyngioma",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.6,
+   "probability": 0.5
+  },
+  {
+   "diagnosis": "Glioblastoma",
+   "gene": "TP53",
+   "expected_frequency": 0.7,
+   "probability": 0.5
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "TP53",
+   "expected_frequency": 0.33,
+   "probability": 0.55
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2C",
+   "expected_frequency": 0.05,
+   "probability": 0.45
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PIK3CA",
+   "expected_frequency": 0.1,
+   "probability": 0.45
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PDGFRA",
+   "expected_frequency": 0.07,
+   "probability": 0.4
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PPM1D",
+   "expected_frequency": 0.04,
+   "probability": 0.35
+  },
+  {
+   "diagnosis": "Glioblastoma",
+   "gene": "PDGFRA",
+   "expected_frequency": 0.35,
+   "probability": 0.3
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "HRAS",
+   "expected_frequency": 0.05,
+   "probability": 0.3
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "KRAS",
+   "expected_frequency": 0.07,
+   "probability": 0.25
+  }
+ ],
+ "claims_cohort_B": [
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ATRX",
+   "expected_frequency": 0.1,
+   "probability": 0.12
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "TP53",
+   "expected_frequency": 0.15,
+   "probability": 0.1
+  }
+ ],
+ "audit": "Cohort A: 201 cases lack a specific diagnosis and 7 cases are hypermutated (>500 rows, up to 15731), which I excluded from discovery tests; 88 cases have zero mutations; many diagnoses are tiny (<10 cases), so rates are unstable; site is largely uninformative. Protein numbering is non-canonical in places (BRAF V600E recorded as p.V640E, H3 K27M as p.K28M), which I mapped to the canonical hotspots. Cohort A looked genuine: textbook drivers (H3-3A in glioma, DDX3X/PTCH1/CTNNB1 in medulloblastoma, SMARCB1 in ATRT, BRAF in ganglioglioma/PXA, IDH1 R132H) are strongly enriched. Cohort B looked artificial or altered: it has the same diagnosis mix as A at about half the size, an empty site column, and none of the expected diagnosis-gene associations (no H3-3A in glioma, no CTNNB1/DDX3X/PTCH1 in medulloblastoma, BRAF not enriched in pilocytic astrocytoma); its top hits (CACNA1H, ZNF510, HLTF) are biologically implausible, consistent with mutation-to-case assignments having been shuffled or otherwise decoupled from diagnosis. I therefore report only two weak, low-probability claims for B.",
+ "methods": "Loaded cases and mutations, counted a gene as mutated if at least one non-synonymous row existed per case. Known answers computed directly (BRAF V600E taken as p.V640E, H3 K27M as p.K28M, IDH1 any p.R132). For discovery, excluded hypermutated cases (>500 rows) and non-specific diagnoses, ran one-sided Fisher exact tests of each diagnosis vs all other cases for genes mutated in >=3 cases of the diagnosis, applied Benjamini-Hochberg, and kept hits with strong significance and biological plausibility; probabilities reflect q-value, sample size and prior plausibility, and expected frequencies were shrunk slightly toward lower values."
+}

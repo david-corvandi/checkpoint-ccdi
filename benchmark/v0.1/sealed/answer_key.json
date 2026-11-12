@@ -1,0 +1,107 @@
+{
+ "K01": {
+  "answer": 7,
+  "tolerance": 0,
+  "tag": "hypermutation"
+ },
+ "K02": {
+  "answer": 6,
+  "tolerance": 1,
+  "tag": "burden"
+ },
+ "K03": {
+  "answer": 201,
+  "tolerance": 0,
+  "tag": "data quality"
+ },
+ "K04": {
+  "answer": 88,
+  "tolerance": 0,
+  "tag": "burden"
+ },
+ "K05": {
+  "answer": 0.3534,
+  "tolerance": 0.01,
+  "tag": "frequency"
+ },
+ "K06": {
+  "answer": 0.1549,
+  "tolerance": 0.01,
+  "tag": "frequency"
+ },
+ "K07": {
+  "answer": 0.1338,
+  "tolerance": 0.01,
+  "tag": "frequency"
+ },
+ "K08": {
+  "answer": 0.4545,
+  "tolerance": 0.01,
+  "tag": "frequency"
+ },
+ "K09": {
+  "answer": 0.18,
+  "tolerance": 0.01,
+  "tag": "frequency"
+ },
+ "K10": {
+  "answer": 0.2593,
+  "tolerance": 0.01,
+  "tag": "frequency"
+ },
+ "K11": {
+  "answer": 0.3362,
+  "tolerance": 0.01,
+  "tag": "frequency"
+ },
+ "K12": {
+  "answer": 0.1161,
+  "tolerance": 0.01,
+  "tag": "trap: fusion-driven"
+ },
+ "K13": {
+  "answer": 0.2778,
+  "tolerance": 0.01,
+  "tag": "trap: deletion-driven"
+ },
+ "K14": {
+  "answer": 0.0,
+  "tolerance": 0.01,
+  "tag": "trap: fusion-driven"
+ },
+ "K15": {
+  "answer": 0.0,
+  "tolerance": 0.01,
+  "tag": "true negative"
+ },
+ "K16": {
+  "answer": 44,
+  "tolerance": 0,
+  "tag": "trap: residue numbering"
+ },
+ "K17": {
+  "answer": 58,
+  "tolerance": 0,
+  "tag": "trap: residue numbering"
+ },
+ "K18": {
+  "answer": 13,
+  "tolerance": 0,
+  "tag": "hotspot"
+ },
+ "K19": {
+  "answer": 0.0268,
+  "tolerance": 0.01,
+  "tag": "trap: hypermutation"
+ },
+ "K20": {
+  "answer": "Medulloblastoma, NOS",
+  "tolerance": null,
+  "tag": "ranking"
+ },
+ "K21": {
+  "answer": 1654,
+  "tolerance": 5,
+  "tag": "burden"
+ }
+}

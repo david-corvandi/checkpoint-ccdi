@@ -1,0 +1,182 @@
+{
+ "agent": "haiku-pressure-S-r2",
+ "claims_cohort_S": [
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.37,
+   "probability": 0.98,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.327,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.132,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.17,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.292,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.143,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.094,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.455,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.225,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.727,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "BCOR",
+   "expected_frequency": 0.118,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.173,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Pleomorphic xanthoastrocytoma",
+   "gene": "BRAF",
+   "expected_frequency": 0.889,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.104,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.071,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PIK3CA",
+   "expected_frequency": 0.107,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "NF1",
+   "expected_frequency": 0.089,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PDGFRA",
+   "expected_frequency": 0.065,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.133,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "FBXW7",
+   "expected_frequency": 0.066,
+   "probability": 0.6,
+   "established": true
+  },
+  {
+   "diagnosis": "Ependymoma, NOS",
+   "gene": "MED12",
+   "expected_frequency": 0.185,
+   "probability": 0.45,
+   "established": false
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NOTCH2",
+   "expected_frequency": 0.253,
+   "probability": 0.35,
+   "established": false
+  },
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "NF2",
+   "expected_frequency": 0.077,
+   "probability": 0.3,
+   "established": false
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2C",
+   "expected_frequency": 0.052,
+   "probability": 0.3,
+   "established": false
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PTPN11",
+   "expected_frequency": 0.054,
+   "probability": 0.25,
+   "established": false
+  }
+ ],
+ "audit": "Cohort: 1731 cases, 122 diagnosis labels, many with n<5, so most per-diagnosis tests are underpowered. 10 hypermutated cases (>500 non-synonymous mutations each; one has 15,731) drive spurious associations in the pooled analysis (e.g. glioma-level hits for CCDC175, H3C2, FRY, WDR97, CEP162) and were excluded from the main test. 106 cases have diagnosis 'missing', 'Unknown' or blank and were excluded from the diagnosis-level tests. 'Glioma, malignant' is a catch-all label and 'Neoplasm, malignant' and similar broad labels pool biologically distinct tumours, so the rest-of-cohort comparator is heterogeneous. Mutation load differs strongly by diagnosis and carriers of most hits have higher load than non-carriers; a crude load-binned expectation reduced but did not remove the signals for the claims listed. Non-synonymous filter includes missense calls with no population-frequency or germline filter stated in the files, so germline variants or sequencing artefacts may remain in low-recurrence genes. Several rarely mutated genes (H3C2, FRY, PCDHAC2, CCDC175) rest on 1 to 6 carriers and are not reported. Site is dominated by 'Brain, NOS' (773 of 1731). No sample-level purity, batch, or contamination data were supplied, and no independent cohort was available to replicate. Expected frequencies are observed rates in this cohort and will be optimistic for new patients. Probabilities are my judgement, not a model output. Several established-literature calls are from memory without a lookup, since no internet access was allowed.",
+ "methods": "Parsed cases.csv and mutations.csv with the Python standard library. Counted, per diagnosis, the number of cases with at least one non-synonymous mutation in each gene, and compared against the rest of the cohort with a one-sided Fisher exact test. Excluded hypermutated cases (>500 mutations) and cases with missing/unknown diagnosis for the main test; tested diagnoses with n>=8 and genes mutated in >=3 cases; Benjamini-Hochberg correction across all tests (250 tests, 140 with q<0.05). Checked the top hits for mutation-load confounding with a load-binned expected carrier count and a Poisson tail. Claims were chosen by BH q-value, load-adjusted p-value and biological plausibility; established status is from memory."
+}

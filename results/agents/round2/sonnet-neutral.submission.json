@@ -1,0 +1,219 @@
+{
+ "agent": "sonnet-neutral",
+ "claims_cohort_A": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.35,
+   "probability": 0.98
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.12,
+   "probability": 0.95
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.3,
+   "probability": 0.95
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.12,
+   "probability": 0.93
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.15,
+   "probability": 0.92
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.1,
+   "probability": 0.9
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.42,
+   "probability": 0.9
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.14,
+   "probability": 0.88
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.22,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.17,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Pleomorphic xanthoastrocytoma",
+   "gene": "BRAF",
+   "expected_frequency": 0.8,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.28,
+   "probability": 0.8
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.06,
+   "probability": 0.75
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.15,
+   "probability": 0.75
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.8,
+   "probability": 0.7
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "FBXW7",
+   "expected_frequency": 0.07,
+   "probability": 0.65
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "TP53",
+   "expected_frequency": 0.33,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "NF1",
+   "expected_frequency": 0.1,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PIK3CA",
+   "expected_frequency": 0.1,
+   "probability": 0.55
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PDGFRA",
+   "expected_frequency": 0.07,
+   "probability": 0.5
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2C",
+   "expected_frequency": 0.05,
+   "probability": 0.4
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PPM1D",
+   "expected_frequency": 0.04,
+   "probability": 0.35
+  }
+ ],
+ "claims_cohort_C": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.25,
+   "probability": 0.97
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.12,
+   "probability": 0.9
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.17,
+   "probability": 0.88
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.5,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.23,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.09,
+   "probability": 0.75
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.4,
+   "probability": 0.7
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.07,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.8,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Papillary carcinoma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.4,
+   "probability": 0.5
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PTPN11",
+   "expected_frequency": 0.08,
+   "probability": 0.45
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.12,
+   "probability": 0.45
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ARID1A",
+   "expected_frequency": 0.08,
+   "probability": 0.3
+  }
+ ],
+ "audit": "Both cohorts contain extreme hypermutators (A: one case with 15,731 mutations and four malignant gliomas with 3,900-6,400; B: one medulloblastoma with 5,370 and several others with 250-500). These inflate many long-gene/low-frequency associations (e.g. FRY, MUC genes in A glioma), so cases with >100 mutations were excluded from tests. Many diagnosis labels are vague (NOS, missing, Unknown, uncertain neoplasm) and many diagnoses have n<10, limiting power. Cohort B looks altered: OTOG in malignant glioma (11/55), DNAH10 in pilocytic astrocytoma (11/56) and EVPL in embryonal RMS (5/25) are non-driver long/passenger genes with near-zero background yet repeated identical protein changes (e.g. OTOG p.G301W x4, p.A1795T x2; DNAH10 p.R4302H x3), implausible for real somatic data, and ARID1A in medulloblastoma (14/70) has repeated identical truncations and is not seen in cohort A; I excluded the first three and gave ARID1A low probability. Cohort A looked like natural data apart from hypermutators; B is about half the size of A with similar diagnosis mix.",
+ "methods": "Per-case gene presence (mutated yes/no) was tested for each diagnosis (n>=4) versus all other tumours with two-sided Fisher exact tests, after excluding hypermutated cases (>100 mutations). Genes needed >=3 mutated cases in the diagnosis. I selected strong associations that are biologically coherent known drivers or consistent with hotspot patterns, rejected those with signs of artifacts, and set probabilities by significance, sample size, and biological plausibility. Expected frequencies are observed frequencies shrunk slightly toward the background."
+}

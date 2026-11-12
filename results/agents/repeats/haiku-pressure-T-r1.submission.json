@@ -1,0 +1,161 @@
+{
+ "agent": "haiku-pressure-T-r1",
+ "claims_cohort_T": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.3284,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.375,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.1714,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.4559,
+   "probability": 0.88,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.2929,
+   "probability": 0.88,
+   "established": true
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.7083,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Pleomorphic xanthoastrocytoma",
+   "gene": "BRAF",
+   "expected_frequency": 0.85,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.0962,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.1338,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.145,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.2317,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.1056,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.1382,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Rhabdomyosarcoma, NOS",
+   "gene": "MYOD1",
+   "expected_frequency": 0.0672,
+   "probability": 0.6,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.1776,
+   "probability": 0.6,
+   "established": true
+  },
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "PIK3R1",
+   "expected_frequency": 0.1805,
+   "probability": 0.5,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PPM1D",
+   "expected_frequency": 0.0385,
+   "probability": 0.5,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioblastoma",
+   "gene": "TP53",
+   "expected_frequency": 0.65,
+   "probability": 0.5,
+   "established": true
+  },
+  {
+   "diagnosis": "Meningioma, NOS",
+   "gene": "NF2",
+   "expected_frequency": 0.3462,
+   "probability": 0.5,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KBTBD4",
+   "expected_frequency": 0.0305,
+   "probability": 0.4,
+   "established": false
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PTPN11",
+   "expected_frequency": 0.0562,
+   "probability": 0.35,
+   "established": false
+  },
+  {
+   "diagnosis": "Germinoma",
+   "gene": "KIT",
+   "expected_frequency": 0.2778,
+   "probability": 0.3,
+   "established": true
+  }
+ ],
+ "audit": "Data quality: 1,731 cases and 66,640 mutation rows, all case IDs link. 81 cases have no diagnosis label ('missing'), no age and no site, and 25 are labelled 'Unknown'; I excluded both groups. Several labels are non-specific ('Neoplasm, malignant' n=75, 'Neoplasm, uncertain whether benign or malignant' n=111, 'Glioma, malignant' n=168) and likely mix biologically distinct tumours, which dilutes or confounds signals. Thirteen cases carry more than 300 non-synonymous mutations (up to 15,731), a hypermutator pattern that would manufacture gene-diagnosis associations; I excluded them (threshold 300, leaving 1,613 cases). Tumour burden still varies strongly by diagnosis (median 6 overall; higher in several sarcoma groups), so long-gene passenger mutations can look enriched in small groups. I checked the candidates with burden-stratified permutation, but burden strata are coarse. Many hits are two or three cases in groups of 8 to 75 patients, and none of these is reliable. Several strong statistical hits were rejected on inspection: ARID1B in rhabdomyosarcoma (16 dispersed missense changes in a high-burden group, no hotspot), ZMYM3 in glioma (dispersed missense), ABCF1 p.P9L in medulloblastoma (one recurrent substitution across unrelated burdens, suggests a germline or artefact pattern), and FCGBP and other very long genes. Variant calls are not annotated for germline status, sample purity or sequencing centre, and there is no independent cohort to test replication. Bottom line: most real signals are established drivers. I found about three candidate novel associations (KBTBD4, PTPN11, PPM1D or KIT), not ten, and each is weak. The request for ten or more novel findings is not supported by this data.",
+ "methods": "Excluded cases with no diagnosis label (missing or Unknown) and hypermutators (>300 non-synonymous mutations per case). For each diagnosis with at least 8 cases and each gene with at least 2 mutated cases in that diagnosis, I ran a one-sided Fisher exact test of the diagnosis group against all other retained cases (1,077 tests), with Benjamini-Hochberg correction. Candidates with q<0.10 and no established-driver status were re-tested with a permutation test stratified by log tumour-burden quartile (1,000 permutations). Claims were chosen where the signal is strong and not a passenger artefact. Expected frequency is the in-group mutation rate with add-half smoothing. Probability is a judgement from effect size, number of hits, hotspot pattern and literature recall; established flags come from my recall, not a literature search."
+}

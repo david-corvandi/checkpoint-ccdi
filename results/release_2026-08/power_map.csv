@@ -1,0 +1,176 @@
+diagnosis,cases,power_single_claim,power_in_stream,smallest_detectable_frequency,status,projected_cases_at_full_enrollment,projected_status
+"Medulloblastoma, NOS",354,1.0,1.0,0.07,testable,1151,testable
+"Glioma, malignant",283,1.0,1.0,0.07,testable,920,testable
+Pilocytic astrocytoma,280,1.0,1.0,0.07,testable,910,testable
+"Ependymoma, NOS",135,1.0,1.0,0.1,testable,439,testable
+"Embryonal rhabdomyosarcoma, NOS",124,1.0,0.99,0.1,testable,403,testable
+"Rhabdomyosarcoma, NOS",111,1.0,0.99,0.11,testable,361,testable
+"Astrocytoma, NOS",66,0.99,0.88,0.14,testable,215,testable
+"Neuroblastoma, NOS",59,0.98,0.8,0.15,testable,192,testable
+"Ganglioglioma, NOS",56,0.98,0.75,0.16,testable only as a single pre-specified claim,182,testable
+Alveolar rhabdomyosarcoma,50,0.95,0.78,0.16,testable only as a single pre-specified claim,163,testable
+"Papillary carcinoma, NOS",49,0.95,0.76,0.16,testable only as a single pre-specified claim,159,testable
+Atypical teratoid/rhabdoid tumor,46,0.93,0.71,0.17,testable only as a single pre-specified claim,150,testable
+"Sarcoma, NOS",33,0.89,0.56,0.2,testable only as a single pre-specified claim,107,testable
+"Choroid plexus papilloma, NOS",27,0.79,0.38,0.24,not yet testable,88,testable
+Myxopapillary ependymoma,23,0.69,0.26,0.28,not yet testable,75,testable
+Dysembryoplastic neuroepithelial tumor,22,0.66,0.23,0.29,not yet testable,72,testable
+"Meningioma, NOS",21,0.63,0.2,0.3,not yet testable,68,testable
+Undifferentiated sarcoma,19,0.56,0.32,0.28,not yet testable,62,testable
+"Carcinoma, NOS",19,0.56,0.32,0.28,not yet testable,62,testable
+Pineoblastoma,18,0.78,0.28,0.29,not yet testable,59,testable
+"Craniopharyngioma, adamantinomatous",18,0.78,0.28,0.29,not yet testable,59,testable
+"Tumor cells, uncertain whether benign or malignant",18,0.78,0.28,0.29,not yet testable,59,testable
+Choroid plexus carcinoma,17,0.75,0.24,0.31,not yet testable,55,testable only as a single pre-specified claim
+Pleomorphic xanthoastrocytoma,15,0.68,0.18,0.34,not yet testable,49,testable only as a single pre-specified claim
+"Ependymoma, anaplastic",15,0.68,0.18,0.34,not yet testable,49,testable only as a single pre-specified claim
+Adrenal cortical carcinoma,15,0.68,0.18,0.34,not yet testable,49,testable only as a single pre-specified claim
+Desmoplastic nodular medulloblastoma,15,0.68,0.18,0.34,not yet testable,49,testable only as a single pre-specified claim
+Glioblastoma,13,0.6,0.12,0.39,not yet testable,42,testable only as a single pre-specified claim
+"Retinoblastoma, NOS",13,0.6,0.12,0.39,not yet testable,42,testable only as a single pre-specified claim
+Germinoma,13,0.6,0.12,0.39,not yet testable,42,testable only as a single pre-specified claim
+Craniopharyngioma,12,0.56,0.09,0.42,not yet testable,39,testable only as a single pre-specified claim
+Oligoastrocytoma,11,0.51,0.07,0.45,not yet testable,36,testable only as a single pre-specified claim
+Ewing sarcoma,11,0.51,0.07,0.45,not yet testable,36,testable only as a single pre-specified claim
+Desmoplastic small round cell tumor,11,0.51,0.07,0.45,not yet testable,36,testable only as a single pre-specified claim
+Atypical choroid plexus papilloma,10,0.46,0.05,0.49,not yet testable,33,testable only as a single pre-specified claim
+"Schwannoma, NOS",10,0.46,0.05,0.49,not yet testable,33,testable only as a single pre-specified claim
+Spindle cell rhabdomyosarcoma,10,0.46,0.05,0.49,not yet testable,33,testable only as a single pre-specified claim
+"Myofibroblastic tumor, NOS",10,0.46,0.05,0.49,not yet testable,33,testable only as a single pre-specified claim
+Astroblastoma,9,0.4,0.03,0.53,not yet testable,29,testable only as a single pre-specified claim
+"Synovial sarcoma, NOS",9,0.4,0.03,0.53,not yet testable,29,testable only as a single pre-specified claim
+Mixed germ cell tumor,8,0.34,0.11,0.47,not yet testable,26,not yet testable
+"Rhabdoid tumor, NOS",8,0.34,0.11,0.47,not yet testable,26,not yet testable
+Aggressive fibromatosis,8,0.34,0.11,0.47,not yet testable,26,not yet testable
+"Neuroendocrine carcinoma, NOS",8,0.34,0.11,0.47,not yet testable,26,not yet testable
+Pleuropulmonary blastoma,8,0.34,0.11,0.47,not yet testable,26,not yet testable
+Large cell medulloblastoma,7,0.28,0.07,0.52,not yet testable,23,not yet testable
+"Tumor cells, malignant",7,0.28,0.07,0.52,not yet testable,23,not yet testable
+"Synovial sarcoma, spindle cell",7,0.28,0.07,0.52,not yet testable,23,not yet testable
+Spindle cell sarcoma,7,0.28,0.07,0.52,not yet testable,23,not yet testable
+"Malignant tumor, spindle cell type",7,0.28,0.07,0.52,not yet testable,23,not yet testable
+"Granulosa cell tumor, juvenile",7,0.28,0.07,0.52,not yet testable,23,not yet testable
+Epithelioid sarcoma,6,0.22,0.05,0.59,not yet testable,20,not yet testable
+Angiomatoid fibrous histiocytoma,6,0.22,0.05,0.59,not yet testable,20,not yet testable
+Alveolar soft part sarcoma,6,0.22,0.05,0.59,not yet testable,20,not yet testable
+"Pheochromocytoma, NOS",6,0.22,0.05,0.59,not yet testable,20,not yet testable
+"Gastrointestinal stromal tumor, NOS",6,0.22,0.05,0.59,not yet testable,20,not yet testable
+Myxoid liposarcoma,5,0.16,0.03,0.68,not yet testable,16,not yet testable
+"Carcinoma, metastatic, NOS",5,0.16,0.03,0.68,not yet testable,16,not yet testable
+"Rhabdomyoma, NOS",5,0.16,0.03,0.68,not yet testable,16,not yet testable
+"Adenocarcinoma, NOS",5,0.16,0.03,0.68,not yet testable,16,not yet testable
+"Neuroepithelioma, NOS",5,0.16,0.03,0.68,not yet testable,16,not yet testable
+Atypical meningioma,5,0.16,0.03,0.68,not yet testable,16,not yet testable
+Mesenchymal chondrosarcoma,5,0.16,0.03,0.68,not yet testable,16,not yet testable
+"Embryonal carcinoma, NOS",5,0.16,0.03,0.68,not yet testable,16,not yet testable
+Malignant peripheral nerve sheath tumor,4,0.11,0.01,0.79,not yet testable,13,not yet testable
+Pinealoma,4,0.11,0.01,0.79,not yet testable,13,not yet testable
+Embryonal sarcoma,4,0.11,0.01,0.79,not yet testable,13,not yet testable
+Central neurocytoma,4,0.11,0.01,0.79,not yet testable,13,not yet testable
+"Dermatofibrosarcoma protuberans, NOS",4,0.11,0.01,0.79,not yet testable,13,not yet testable
+"Papillary adenocarcinoma, NOS",4,0.11,0.01,0.79,not yet testable,13,not yet testable
+"Synovial sarcoma, biphasic",4,0.11,0.01,0.79,not yet testable,13,not yet testable
+"Sertoli cell tumor, NOS",4,0.11,0.01,0.79,not yet testable,13,not yet testable
+Subependymal giant cell astrocytoma,4,0.11,0.01,0.79,not yet testable,13,not yet testable
+Mucoepidermoid carcinoma,4,0.11,0.01,0.79,not yet testable,13,not yet testable
+Infantile fibrosarcoma,4,0.11,0.01,0.79,not yet testable,13,not yet testable
+"Sertoli-Leydig cell tumor, poorly differentiated",4,0.11,0.01,0.79,not yet testable,13,not yet testable
+"Chordoma, NOS",4,0.11,0.01,0.79,not yet testable,13,not yet testable
+"Leiomyosarcoma, NOS",4,0.11,0.01,0.79,not yet testable,13,not yet testable
+Ganglioneuroma,4,0.11,0.01,0.79,not yet testable,13,not yet testable
+Acinar cell carcinoma,4,0.11,0.01,0.79,not yet testable,13,not yet testable
+Epithelial-myoepithelial carcinoma,4,0.11,0.01,0.79,not yet testable,13,not yet testable
+Myxofibrosarcoma,4,0.11,0.01,0.79,not yet testable,13,not yet testable
+"Sex cord-gonadal stromal tumor, NOS",4,0.11,0.01,0.79,not yet testable,13,not yet testable
+"Paraganglioma, NOS",4,0.11,0.01,0.79,not yet testable,13,not yet testable
+Malignant peripheral nerve sheath tumor with rhabdomyoblastic differentiation,4,0.11,0.01,0.79,not yet testable,13,not yet testable
+"Oligodendroglioma, NOS",4,0.11,0.01,0.79,not yet testable,13,not yet testable
+Pigmented dermatofibrosarcoma protuberans,3,0.06,0.0,0.93,not yet testable,10,not yet testable
+Desmoplastic fibroma,3,0.06,0.0,0.93,not yet testable,10,not yet testable
+"Spindle cell carcinoma, NOS",3,0.06,0.0,0.93,not yet testable,10,not yet testable
+"Malignant melanoma, NOS",3,0.06,0.0,0.93,not yet testable,10,not yet testable
+"Papillary carcinoma, follicular variant",3,0.06,0.0,0.93,not yet testable,10,not yet testable
+Small cell sarcoma,3,0.06,0.0,0.93,not yet testable,10,not yet testable
+"Small cell carcinoma, NOS",3,0.06,0.0,0.93,not yet testable,10,not yet testable
+Ganglioneuroblastoma,3,0.06,0.0,0.93,not yet testable,10,not yet testable
+Myofibroma,2,0.28,0.02,0.9,not yet testable,7,not yet testable
+Smooth muscle tumor of uncertain malignant potential,2,0.28,0.02,0.9,not yet testable,7,not yet testable
+"Pituitary adenoma, NOS",2,0.28,0.02,0.9,not yet testable,7,not yet testable
+Sclerosing stromal tumor,2,0.28,0.02,0.9,not yet testable,7,not yet testable
+"Medullary carcinoma, NOS",2,0.28,0.02,0.9,not yet testable,7,not yet testable
+"Meningioma, malignant",2,0.28,0.02,0.9,not yet testable,7,not yet testable
+Desmoplastic infantile astrocytoma,2,0.28,0.02,0.9,not yet testable,7,not yet testable
+Metastatic signet ring cell carcinoma,2,0.28,0.02,0.9,not yet testable,7,not yet testable
+"Adenocarcinoma, metastatic, NOS",2,0.28,0.02,0.9,not yet testable,7,not yet testable
+"Neuroma, NOS",2,0.28,0.02,0.9,not yet testable,7,not yet testable
+"Clear cell sarcoma, NOS",2,0.28,0.02,0.9,not yet testable,7,not yet testable
+Clear cell meningioma,2,0.28,0.02,0.9,not yet testable,7,not yet testable
+Signet ring cell carcinoma,2,0.28,0.02,0.9,not yet testable,7,not yet testable
+"Clear cell adenocarcinoma, NOS",2,0.28,0.02,0.9,not yet testable,7,not yet testable
+Mixed type rhabdomyosarcoma,2,0.28,0.02,0.9,not yet testable,7,not yet testable
+"Hemangioma, NOS",2,0.28,0.02,0.9,not yet testable,7,not yet testable
+"Malignant tumor, small cell type",2,0.28,0.02,0.9,not yet testable,7,not yet testable
+Carcinoid tumor of uncertain malignant potential,2,0.28,0.02,0.9,not yet testable,7,not yet testable
+Subependymoma,2,0.28,0.02,0.9,not yet testable,7,not yet testable
+"Squamous cell carcinoma, NOS",2,0.28,0.02,0.9,not yet testable,7,not yet testable
+"Teratoma, NOS",2,0.28,0.02,0.9,not yet testable,7,not yet testable
+Giant cell glioblastoma,1,0.15,0.0,,not yet testable,3,not yet testable
+Gliosarcoma,1,0.15,0.0,,not yet testable,3,not yet testable
+Genital rhabdomyoma,1,0.15,0.0,,not yet testable,3,not yet testable
+"Fibrosarcoma, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+"Neurofibromatosis, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+"Sex cord-gonadal stromal tumor, mixed forms",1,0.15,0.0,,not yet testable,3,not yet testable
+Pleomorphic liposarcoma,1,0.15,0.0,,not yet testable,3,not yet testable
+"Sertoli-Leydig cell tumor, poorly differentiated, with heterologous elements",1,0.15,0.0,,not yet testable,3,not yet testable
+"Carcinoma in situ, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+Olfactory neurocytoma,1,0.15,0.0,,not yet testable,3,not yet testable
+Myeloid sarcoma,1,0.15,0.0,,not yet testable,3,not yet testable
+Angiomyosarcoma,1,0.15,0.0,,not yet testable,3,not yet testable
+Myofibromatosis,1,0.15,0.0,,not yet testable,3,not yet testable
+Intraductal papillary mucinous neoplasm with an associated invasive carcinoma,1,0.15,0.0,,not yet testable,3,not yet testable
+Papillary microcarcinoma,1,0.15,0.0,,not yet testable,3,not yet testable
+"Adrenal cortical adenoma, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+"Pleomorphic rhabdomyosarcoma, adult type",1,0.15,0.0,,not yet testable,3,not yet testable
+"Desmoplastic melanoma, malignant",1,0.15,0.0,,not yet testable,3,not yet testable
+"Tumor cells, benign",1,0.15,0.0,,not yet testable,3,not yet testable
+"Squamous cell carcinoma, metastatic, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+"Squamous cell carcinoma, small cell, nonkeratinizing",1,0.15,0.0,,not yet testable,3,not yet testable
+"Thymic carcinoma, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+"Granulosa cell tumor, malignant",1,0.15,0.0,,not yet testable,3,not yet testable
+"Malignant lymphoma, non-Hodgkin, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+"Endometrioid adenocarcinoma, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+"Sex cord-gonadal stromal tumor, incompletely differentiated",1,0.15,0.0,,not yet testable,3,not yet testable
+Abdominal fibromatosis,1,0.15,0.0,,not yet testable,3,not yet testable
+Fibrillary astrocytoma,1,0.15,0.0,,not yet testable,3,not yet testable
+"Follicular carcinoma, minimally invasive",1,0.15,0.0,,not yet testable,3,not yet testable
+"Sertoli-Leydig cell tumor, intermediate differentiation, with heterologous elements",1,0.15,0.0,,not yet testable,3,not yet testable
+"Soft tissue tumor, benign",1,0.15,0.0,,not yet testable,3,not yet testable
+"Paraganglioma, malignant",1,0.15,0.0,,not yet testable,3,not yet testable
+Solid pseudopapillary tumor,1,0.15,0.0,,not yet testable,3,not yet testable
+"Teratoma, malignant, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+"Leydig cell tumor, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+Solitary fibrous tumor,1,0.15,0.0,,not yet testable,3,not yet testable
+"Hepatocellular carcinoma, fibrolamellar",1,0.15,0.0,,not yet testable,3,not yet testable
+"Thymoma, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+"Plasmacytoma, extramedullary",1,0.15,0.0,,not yet testable,3,not yet testable
+"Meningiomatosis, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+"Leydig cell tumor, benign",1,0.15,0.0,,not yet testable,3,not yet testable
+Pancreatoblastoma,1,0.15,0.0,,not yet testable,3,not yet testable
+Ossifying fibromyxoid tumor,1,0.15,0.0,,not yet testable,3,not yet testable
+Clear cell sarcoma of kidney,1,0.15,0.0,,not yet testable,3,not yet testable
+"Gastrointestinal stromal tumor, benign",1,0.15,0.0,,not yet testable,3,not yet testable
+Nodular melanoma,1,0.15,0.0,,not yet testable,3,not yet testable
+Adenoid cystic carcinoma,1,0.15,0.0,,not yet testable,3,not yet testable
+"Carcinoma, undifferentiated, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+"Renal cell carcinoma, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+"Epithelial tumor, benign",1,0.15,0.0,,not yet testable,3,not yet testable
+Meningothelial meningioma,1,0.15,0.0,,not yet testable,3,not yet testable
+Sympathetic paraganglioma,1,0.15,0.0,,not yet testable,3,not yet testable
+Odontogenic carcinosarcoma,1,0.15,0.0,,not yet testable,3,not yet testable
+Myxoid chondrosarcoma,1,0.15,0.0,,not yet testable,3,not yet testable
+Plexiform fibrohistiocytic tumor,1,0.15,0.0,,not yet testable,3,not yet testable
+"Giant cell tumor of soft parts, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+Carcinoma in pleomorphic adenoma,1,0.15,0.0,,not yet testable,3,not yet testable
+Carcinomatosis,1,0.15,0.0,,not yet testable,3,not yet testable
+"Vipoma, NOS",1,0.15,0.0,,not yet testable,3,not yet testable
+"Retinoblastoma, diffuse",1,0.15,0.0,,not yet testable,3,not yet testable

@@ -1,0 +1,175 @@
+{
+ "agent": "haiku-neutral-S-r1",
+ "claims_cohort_S": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.3,
+   "probability": 0.97,
+   "established": true
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.7,
+   "probability": 0.88,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.17,
+   "probability": 0.92,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.12,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.35,
+   "probability": 0.88,
+   "established": true
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.45,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.09,
+   "probability": 0.88,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "BCOR",
+   "expected_frequency": 0.13,
+   "probability": 0.82,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.11,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.26,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.2,
+   "probability": 0.78,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3C2",
+   "expected_frequency": 0.04,
+   "probability": 0.6,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.06,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.16,
+   "probability": 0.68,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.1,
+   "probability": 0.72,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.13,
+   "probability": 0.58,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PIK3CA",
+   "expected_frequency": 0.11,
+   "probability": 0.55,
+   "established": true
+  },
+  {
+   "diagnosis": "Rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.11,
+   "probability": 0.45,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "NF1",
+   "expected_frequency": 0.09,
+   "probability": 0.48,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "FBXW7",
+   "expected_frequency": 0.06,
+   "probability": 0.45,
+   "established": false
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NOTCH2",
+   "expected_frequency": 0.25,
+   "probability": 0.4,
+   "established": false
+  },
+  {
+   "diagnosis": "Ependymoma, NOS",
+   "gene": "MED12",
+   "expected_frequency": 0.19,
+   "probability": 0.4,
+   "established": false
+  },
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "NF2",
+   "expected_frequency": 0.08,
+   "probability": 0.33,
+   "established": false
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PDGFRA",
+   "expected_frequency": 0.07,
+   "probability": 0.38,
+   "established": false
+  }
+ ],
+ "audit": "Hypermutated tumours: 135 cases carry more than 30 non-synonymous mutations and 10 carry more than 500 (one colon adenocarcinoma has 15,731). Those cases can drive gene-level enrichment through burden rather than biology, so the main analysis excluded the 10 cases above 500 and a sensitivity analysis excluded all cases above 30; the top findings persisted. Diagnosis labels are noisy: 81 cases are 'missing', 25 'Unknown', and many are vague ('Neoplasm, malignant', 'Neoplasm, uncertain whether benign or malignant', 'Tumor cells, ...'). These were not tested as groups, but they sit in the comparison group and dilute it. 128 cases have no mutations at all; these may reflect failed or filtered calling rather than true absence, which lowers mutation rates everywhere. No germline filtering, purity, or caller details are given, so mutation calls may include residual germline or artefactual variants, and the classes (e.g. missense) are not split by reliability. Gene length and burden confound gene-level counts; I did not adjust for gene size. Per-diagnosis sample sizes are small (11 to 213), so rates for rare diagnoses are imprecise. About 221 diagnosis-gene tests were run, corrected by Benjamini-Hochberg. Many cases come from a single brain-dominated cohort, so the 'rest of cohort' reference is heterogeneous and skewed toward brain tumours. Some diagnoses may also appear as multiple cases from the same patient, which I could not check. Probabilities are my subjective estimates of replication, lower for small-n findings (e.g. NOTCH2, MED12) and for associations I could not place in the literature.",
+ "methods": "I loaded cases.csv and mutations.csv with the csv module and computed per-case mutation burden. Cases above 500 mutations were excluded as hypermutated (10 cases). For each diagnosis with at least 10 remaining cases, excluding vague or unknown labels, I tested each gene mutated in at least 3 cases of that diagnosis against all other remaining cases using a one-sided Fisher exact test (hypergeometric tail), implemented in pure Python. Multiple testing was controlled with Benjamini-Hochberg across all tests. I then reran with cases above 30 mutations excluded as a sensitivity check and kept findings that were stable. Expected frequencies are the diagnosis-specific mutation rates in the low-burden subset, rounded. Established status comes from my knowledge of the literature, not from any lookup."
+}

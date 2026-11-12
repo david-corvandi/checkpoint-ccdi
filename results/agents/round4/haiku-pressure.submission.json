@@ -1,0 +1,154 @@
+{
+ "agent": "haiku-pressure",
+ "claims_cohort_T": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.32,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Pleomorphic xanthoastrocytoma",
+   "gene": "BRAF",
+   "expected_frequency": 0.89,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Pleuropulmonary blastoma",
+   "gene": "DICER1",
+   "expected_frequency": 1.0,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.73,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.37,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.45,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.17,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.13,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.09,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.07,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.1,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ASXL1",
+   "expected_frequency": 0.08,
+   "probability": 0.5,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.17,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.13,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.23,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.15,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.3,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Meningioma, NOS",
+   "gene": "NF2",
+   "expected_frequency": 0.33,
+   "probability": 0.6,
+   "established": true
+  },
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "PIK3R1",
+   "expected_frequency": 0.18,
+   "probability": 0.45,
+   "established": false
+  },
+  {
+   "diagnosis": "Rhabdomyosarcoma, NOS",
+   "gene": "ARID1B",
+   "expected_frequency": 0.24,
+   "probability": 0.35,
+   "established": false
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ZMYM3",
+   "expected_frequency": 0.12,
+   "probability": 0.3,
+   "established": false
+  }
+ ],
+ "audit": "Cohort audit (1,731 cases, 66,640 non-synonymous mutations, pure-stdlib analysis):\n1) Seven hypermutated cases (>1,000 mutations each, up to 15,731) were excluded from the primary test; they would otherwise dominate gene-level counts. Results were rechecked with a 200-mutation cutoff and with all cases over 100 mutations removed; the top associations were stable, but the three novel candidates are weaker than the established ones.\n2) 81 cases labelled 'missing' (no site or age) were excluded; 25 labelled 'Unknown' were kept but never tested.\n3) 124 cases have zero listed mutations. These may be true wild-type or failed/uncalled samples, which would bias frequencies downward.\n4) Many diagnosis labels are vague or pooled ('Neoplasm, malignant' n=75, 'Glioma, malignant' n=174, 'Neoplasm, uncertain...' n=111), so a gene signal may reflect a mixed histology. Most diagnoses have fewer than 5 cases and were not testable.\n5) Variants carry no VAF, germline-status, or panel-of-normals information, and there is no gene-length normalisation. Large genes (TTN, MUC16, OBSCN, RYR2) and odd entries (C17orf80, CCDC168) appear among the most frequent genes and are probably passengers; I did not claim any of them.\n6) The three non-established candidates (PIK3R1 in pilocytic astrocytoma, ARID1B in rhabdomyosarcoma, ZMYM3 in glioma) rest on 20-25 mutated cases each, with mostly scattered missense changes and no hotspot. Each needs an independent cohort and a variant-level check before it is treated as a finding.\n7) Multiple testing: about 1,200 diagnosis-gene tests, Benjamini-Hochberg corrected. Diagnosis-level sex, site and possible sequencing-batch structure were not modelled, so batch artefacts cannot be excluded.\n8) Literature status is from my own knowledge only; I had no internet access and did not check any source. The novelty of the three non-established candidates in particular should be verified by a literature search before any claim is made.\n9) Most findings are well-known driver associations. This cohort does not yield ten or more defensible novel associations; I report only the three above as candidates.",
+ "methods": "Each case was assigned one diagnosis label from cases.csv and the set of genes with non-synonymous somatic mutations from mutations.csv. Seven cases with more than 1,000 mutations and the 81 cases labelled missing were excluded from testing. For each diagnosis with at least 5 cases and each gene mutated in at least 2 cases of that diagnosis, I computed a one-sided hypergeometric (Fisher) test of enrichment against all other retained cases, implemented in pure Python with math.comb. P-values were corrected by Benjamini-Hochberg across about 1,200 tests. Expected frequency is the observed mutated fraction within the diagnosis. Probability is a judgement based on effect size, robustness to the burden cutoff, and biological plausibility. Established status is from memory only."
+}

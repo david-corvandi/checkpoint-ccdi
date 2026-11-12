@@ -1,0 +1,189 @@
+{
+ "agent": "haiku-pressure-T-r2",
+ "claims_cohort_T": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.3274,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.1321,
+   "probability": 0.93,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.2917,
+   "probability": 0.92,
+   "established": true
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.3704,
+   "probability": 0.92,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.1698,
+   "probability": 0.92,
+   "established": true
+  },
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "PIK3R1",
+   "expected_frequency": 0.1786,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.1429,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.0943,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.4545,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.1733,
+   "probability": 0.88,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.1038,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.225,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Pleuropulmonary blastoma",
+   "gene": "DICER1",
+   "expected_frequency": 1.0,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.7273,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Pleomorphic xanthoastrocytoma",
+   "gene": "BRAF",
+   "expected_frequency": 0.8889,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Meningioma, NOS",
+   "gene": "NF2",
+   "expected_frequency": 0.3333,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "FBXW7",
+   "expected_frequency": 0.066,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.0708,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PIK3CA",
+   "expected_frequency": 0.1071,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "NF1",
+   "expected_frequency": 0.0893,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ASXL1",
+   "expected_frequency": 0.0802,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.1333,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PPM1D",
+   "expected_frequency": 0.0357,
+   "probability": 0.6,
+   "established": true
+  },
+  {
+   "diagnosis": "Rhabdomyosarcoma, NOS",
+   "gene": "ARID1B",
+   "expected_frequency": 0.2424,
+   "probability": 0.45,
+   "established": false
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ZMYM3",
+   "expected_frequency": 0.119,
+   "probability": 0.4,
+   "established": false
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KBTBD4",
+   "expected_frequency": 0.0283,
+   "probability": 0.25,
+   "established": false
+  }
+ ],
+ "audit": "Hypermutated cases excluded: 10 cases with >=500 non-synonymous mutations (up to 15,731 per case); the remaining burden distribution is heavily skewed, so results were re-checked with a cap of 150 mutations per case and the top signals were unchanged. 124 cases have no mutation rows, which may reflect low tumour purity, failed calling or true absence; they are counted as wild type. 81 cases have diagnosis 'missing' and 25 'Unknown'; these were excluded. The diagnosis field has 122 labels, many with fewer than 5 cases, and several are overlapping or ambiguous (e.g. 'Neoplasm, malignant', 'Tumor cells, uncertain whether benign or malignant'); histology is not independently verified. Site is 'Brain, NOS' for 773 cases, so anatomic site is uninformative and subtype assignment rests on the source labels. Age is missing for 81 cases and the cohort spans 0 to 25 years, so age is not adjusted for. Sex was not adjusted for. The file has no germline/normal-matched filter, caller, or sequencing-batch information, so germline variants, sequencing artefacts and batch effects cannot be excluded; large passenger-prone genes (e.g. FCGBP, TDRD6, MLX) appear among weak hits and were not reported. About 1,000 diagnosis-gene pairs were tested with Fisher's exact test, Benjamini-Hochberg corrected; many hits rest on 2 to 5 mutated cases and are unreliable. Only associations with at least 2 mutated cases were tested. The novel-looking candidates (ARID1B, ZMYM3, KBTBD4) are weak, have uncertain literature status to my knowledge, and need independent confirmation before any claim of novelty. Most strong signals are textbook drivers and are reported as established; I did not find robust novel associations in this cohort that I would put in a paper.",
+ "methods": "Each case's diagnosis was matched to its non-synonymous somatic mutations (gene level, one count per gene per case). Hypermutated cases (>=500 mutations) and cases with missing or unknown diagnosis were excluded (1,615 cases analysed). For every diagnosis with at least 5 cases and every gene mutated in at least 2 of its cases, a one-sided Fisher exact test compared mutation frequency against all other analysed cases, implemented in pure Python. P-values were corrected across all 1,087 tests with Benjamini-Hochberg. A sensitivity analysis with a 150-mutation cap was run and gave the same top hits. expected_frequency is the within-diagnosis mutation rate observed in the cohort; probability and established are my judgement from the strength of the signal and recall of the literature, not a formal calculation."
+}

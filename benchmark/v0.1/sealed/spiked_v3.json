@@ -1,0 +1,38 @@
+{
+ "seed": "checkpoint-v0.1",
+ "planted_effects": [
+  {
+   "diagnosis": "Rhabdomyosarcoma, NOS",
+   "gene": "ARID1B",
+   "carriers_in_label": 16,
+   "label_size": 66,
+   "frequency_in_label": 0.242,
+   "frequency_elsewhere": 0.0048
+  },
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "PIK3R1",
+   "carriers_in_label": 30,
+   "label_size": 168,
+   "frequency_in_label": 0.179,
+   "frequency_elsewhere": 0.0058
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ZMYM3",
+   "carriers_in_label": 20,
+   "label_size": 168,
+   "frequency_in_label": 0.119,
+   "frequency_elsewhere": 0.0052
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ASXL1",
+   "carriers_in_label": 17,
+   "label_size": 212,
+   "frequency_in_label": 0.08,
+   "frequency_elsewhere": 0.0046
+  }
+ ],
+ "method": "unique single-nucleotide-reachable changes at in-range positions, in cancer genes with background carriers"
+}

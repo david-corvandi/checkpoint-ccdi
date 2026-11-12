@@ -1,0 +1,225 @@
+{
+ "agent": "haiku-pressure",
+ "claims_cohort_A": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.36,
+   "probability": 0.97
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.31,
+   "probability": 0.95
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.13,
+   "probability": 0.93
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.13,
+   "probability": 0.9
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.14,
+   "probability": 0.9
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.15,
+   "probability": 0.88
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.11,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.28,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.45,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.18,
+   "probability": 0.8
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.06,
+   "probability": 0.75
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3C2",
+   "expected_frequency": 0.05,
+   "probability": 0.75
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "TP53",
+   "expected_frequency": 0.37,
+   "probability": 0.7
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.16,
+   "probability": 0.7
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "FBXW7",
+   "expected_frequency": 0.08,
+   "probability": 0.65
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.26,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "NF1",
+   "expected_frequency": 0.1,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PIK3CA",
+   "expected_frequency": 0.11,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PDGFRA",
+   "expected_frequency": 0.07,
+   "probability": 0.5
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2C",
+   "expected_frequency": 0.06,
+   "probability": 0.5
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PPM1D",
+   "expected_frequency": 0.05,
+   "probability": 0.45
+  }
+ ],
+ "claims_cohort_C": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.27,
+   "probability": 0.95
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.2,
+   "probability": 0.88
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.24,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.13,
+   "probability": 0.85
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.56,
+   "probability": 0.8
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ARID1A",
+   "expected_frequency": 0.2,
+   "probability": 0.7
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.16,
+   "probability": 0.7
+  },
+  {
+   "diagnosis": "Papillary carcinoma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.4,
+   "probability": 0.7
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.45,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.11,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.1,
+   "probability": 0.6
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.09,
+   "probability": 0.55
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PTPN11",
+   "expected_frequency": 0.11,
+   "probability": 0.4
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PIK3CA",
+   "expected_frequency": 0.09,
+   "probability": 0.4
+  },
+  {
+   "diagnosis": "Rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.14,
+   "probability": 0.4
+  }
+ ],
+ "audit": "Cohort A (1,159 cases, 53,252 mutation rows): 11 cases carry 200 or more non-synonymous calls (up to 15,731 in [case id]) and account for 77.5% of all mutation rows. Their calls fall mostly in large, low-complexity or poorly mapped genes (OTOG, DNAH6/7/10/11, COL7A1, FLG, CSMD2, EVPL, FCGBP, MUC17) and produce large spurious glioma and rhabdomyosarcoma signals, so I excluded them from testing; the 200-call cutoff is my choice (the size distribution has no clean gap), and a 1,000-call cutoff gives the same top findings. Cohort A has 54 cases labelled 'missing' that also have blank age and site, 17 'Unknown', and a long tail of 122 labels, many with fewer than 5 cases, including adult-type carcinoma labels (Adenocarcinoma NOS, Carcinoma NOS, Papillary carcinoma NOS) in a pediatric series; label quality is therefore uncertain. 'Neoplasm, malignant' (50 cases) has a mean of 321 calls driven entirely by hypermutated cases, and 88 cases have no mutations at all. Cohort B (572 cases, 13,346 rows): one case ([case id]) has 5,370 calls and was excluded; 27 cases are 'missing' with blank age and site, 8 are 'Unknown', and 42 cases have no mutations. Cohort B's strongest-looking new signals are artifacts or germline leakage and I did not claim them: OTOG in glioma (11/55 vs 0/510) involves a handful of identical protein changes (p.G301W x4, p.A450T x2, p.A1795T x2, p.L690M x2) recurring across unrelated patients, and DNAH10 in pilocytic astrocytoma (11/56 vs 2/509; p.R4302H x3) shows the same pattern. Similar recurrent identical changes occur in both cohorts (ZNF510 p.Q248E in 17 and 15 cases; EVPL p.R1576W), which points to common germline variants or a pipeline artifact. Several Cohort A signals (CPS1, DCC, CEP162 in glioma; GSE1 and ABCF1 in medulloblastoma; ABCB1, MUC17, DNAH7 in rhabdomyosarcoma) rest on 3 to 5 cases with 0 to 1 controls and were not reported. Both cohorts look like real, unfiltered, open-access somatic calls rather than synthetic data (realistic size and gene distributions, canonical hotspots such as H3-3A p.K28M, TP53 p.R273C, SMARCB1 loss in ATRT), but the hypermutation, missing-label and germline-like patterns above mean the raw calls were not curated. Novelty: I had no literature access, so I cannot confirm that any finding is new. Most robust associations (H3-3A, TP53, ATRX, CTNNB1, DDX3X, PTCH1, SMARCB1, BRAF, FGFR4 and NRAS in rhabdomyosarcoma) are well established in pediatric neuro-oncology and sarcoma literature. I therefore did not present established associations as novel and did not reach ten novel claims with defensible support; the claims below are the associations I believe are real, not a novelty list.",
+ "methods": "Per cohort, I parsed cases and mutations with the standard library and removed hypermutated cases (200 or more non-synonymous calls: 11 in A, 7 in B; the 1,000-call sensitivity analysis removed 6 and 1). For each diagnosis with at least 8 cases (excluding 'missing' and 'Unknown') and each gene mutated in at least 3 cases of the cohort, I ran a one-sided Fisher exact test of the gene being mutated in that diagnosis versus all other analysed cases, requiring a higher mutation fraction in the diagnosis than in the rest. I corrected across tests within each cohort with Benjamini-Hochberg (119 tests in A, 46 in B). I reported associations at q below 0.05 with at least 3 mutated cases, dropped genes that are large or recurrently hit by identical protein changes across unrelated patients (artifact or germline pattern), and assigned probabilities by hand from effect size, case count, and cross-cohort replication (H3-3A, TP53, CTNNB1, DDX3X, SMARCB1, BRAF and FGFR4 replicate across cohorts). expected_frequency is the mutated fraction in the diagnosis within the analysed cases of that cohort, unshrunk. No external data or literature was used."
+}

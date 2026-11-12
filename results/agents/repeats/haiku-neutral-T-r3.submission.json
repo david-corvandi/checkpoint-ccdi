@@ -1,0 +1,161 @@
+{
+ "agent": "haiku-neutral-T-r3",
+ "claims_cohort_T": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.328,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.708,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.134,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.096,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.171,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.456,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.375,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.145,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.293,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.232,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.073,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.178,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "PIK3R1",
+   "expected_frequency": 0.18,
+   "probability": 0.6,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "NF1",
+   "expected_frequency": 0.092,
+   "probability": 0.6,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.138,
+   "probability": 0.6,
+   "established": true
+  },
+  {
+   "diagnosis": "Meningioma, NOS",
+   "gene": "NF2",
+   "expected_frequency": 0.346,
+   "probability": 0.6,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.106,
+   "probability": 0.6,
+   "established": false
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PIK3CA",
+   "expected_frequency": 0.109,
+   "probability": 0.5,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PDGFRA",
+   "expected_frequency": 0.068,
+   "probability": 0.5,
+   "established": true
+  },
+  {
+   "diagnosis": "Rhabdomyosarcoma, NOS",
+   "gene": "ARID1B",
+   "expected_frequency": 0.246,
+   "probability": 0.5,
+   "established": false
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "FBXW7",
+   "expected_frequency": 0.068,
+   "probability": 0.5,
+   "established": false
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ASXL1",
+   "expected_frequency": 0.082,
+   "probability": 0.4,
+   "established": false
+  }
+ ],
+ "audit": "Cohort-level concerns that lower confidence: (1) Diagnosis labels are heterogeneous and partly ambiguous (e.g. 'Glioma, malignant', 'Neoplasm, malignant', 'Tumor cells, malignant' are non-specific; several near-duplicate labels such as 'Glioblastoma' and 'Glioma, malignant'), and 81 cases have a blank diagnosis, 81 'missing' and 25 'Unknown'; these were excluded from the comparisons, and 99 mutated cases have no usable label. (2) Hypermutated tumours: 13 cases have 300 or more non-synonymous mutations, one has 15,731; these were excluded from the primary analysis because they would dominate gene-level counts. (3) Multiple testing: about 1,062 diagnosis-gene pairs were tested with a one-sided Fisher exact test; the Bonferroni threshold is about 4.7e-5, so several claims rest on nominal rather than corrected significance, and the weaker ones are assigned lower probabilities. (4) Small groups: several diagnoses have 10 to 15 cases, so their rates are unstable (e.g. meningioma NF2, craniopharyngioma CTNNB1). (5) Passenger and gene-size bias: very large genes (TTN, MUC16, OBSCN, RYR2) recur as mutated in many cases and were not reported; the mutation calls carry no sequencing depth, purity or caller information, so artefacts cannot be ruled out. (6) The comparison group is the whole rest of the cohort, which mixes related entities (e.g. gliomas and pilocytic astrocytomas), so the contrasts are diluted rather than biased. (7) Age and site are not adjusted for, and 'established' flags are from my own recall, not a literature search.",
+ "methods": "Cases with a blank, 'missing' or 'Unknown' diagnosis and cases with 300 or more mutations were excluded (1,613 cases kept). Mutations were collapsed to one binary flag per case and gene. For each diagnosis with at least 10 cases and each gene mutated in at least 2 cases of that diagnosis, a one-sided Fisher exact test compared mutation frequency within the diagnosis with the rest of the kept cohort (1,062 tests). Expected frequencies are smoothed as (a+0.5)/(n+1). Probabilities are my judgement of replication, weighted by p-value, effect size and biological plausibility; findings with p above about 1e-4 were not reported. The established flag reflects my knowledge of the literature."
+}

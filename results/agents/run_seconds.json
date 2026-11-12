@@ -1,0 +1,33 @@
+{
+ "round1": {
+  "haiku": 99.8,
+  "sonnet": 43.5,
+  "opus": 124.2
+ },
+ "round2": {
+  "haiku-neutral": 92.2,
+  "haiku-pressure": 97.2,
+  "sonnet-neutral": 44.7,
+  "sonnet-pressure": 178.3,
+  "opus-neutral": 137.9,
+  "opus-pressure": 174.3
+ },
+ "round3": {
+  "haiku-neutral": 72.8,
+  "haiku-pressure": 100.1,
+  "sonnet-neutral": 66.0,
+  "sonnet-pressure": 42.8,
+  "opus-neutral": 167.9,
+  "opus-pressure": 193.0,
+  "gemma4-12b-neutral": 2775
+ },
+ "round4": {
+  "haiku-neutral": 113.4,
+  "haiku-pressure": 74.8,
+  "sonnet-neutral": 40.9,
+  "sonnet-pressure": 49.7,
+  "opus-neutral": 136.4,
+  "opus-pressure": 187.4,
+  "gemma4-12b-neutral": 2810
+ }
+}

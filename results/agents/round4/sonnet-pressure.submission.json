@@ -1,0 +1,147 @@
+{
+ "agent": "sonnet-pressure",
+ "claims_cohort_T": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.33,
+   "probability": 0.98,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.13,
+   "probability": 0.96,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.17,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.37,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.28,
+   "probability": 0.93,
+   "established": true
+  },
+  {
+   "diagnosis": "Pleuropulmonary blastoma",
+   "gene": "DICER1",
+   "expected_frequency": 0.8,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.72,
+   "probability": 0.93,
+   "established": true
+  },
+  {
+   "diagnosis": "Pleomorphic xanthoastrocytoma",
+   "gene": "BRAF",
+   "expected_frequency": 0.85,
+   "probability": 0.93,
+   "established": true
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.45,
+   "probability": 0.93,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.22,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.09,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.1,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.13,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.13,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.17,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "PIK3R1",
+   "expected_frequency": 0.18,
+   "probability": 0.7,
+   "established": false
+  },
+  {
+   "diagnosis": "Rhabdomyosarcoma, NOS",
+   "gene": "ARID1B",
+   "expected_frequency": 0.22,
+   "probability": 0.65,
+   "established": false
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ZMYM3",
+   "expected_frequency": 0.12,
+   "probability": 0.65,
+   "established": false
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.07,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ASXL1",
+   "expected_frequency": 0.08,
+   "probability": 0.55,
+   "established": false
+  }
+ ],
+ "audit": "Cohort pooled from many sources with very heterogeneous, non-standardised diagnosis labels (e.g. NOS, 'missing', 'Unknown', 'Neoplasm, malignant', 'Glioma, malignant' as a catch-all) so diagnoses are mixtures and associations are label-dependent. 21 cases carry >100 mutations (up to 15,731), likely hypermutators or pooled/processing artifacts; they were excluded because they inflate passenger-gene counts (e.g. KMT2D hits came partly from one 5,370-mutation case). 124 cases have no mutations, so no-call versus wild-type is ambiguous. Many diagnoses have tiny n, so no reliable rare-diagnosis findings. ~438k gene-diagnosis tests were run; only the Bonferroni-surviving set is reported. Large genes (KMT2D, ASXL1, ARID1B) may reflect gene length and unmodelled covariates (age, site, source study); no per-gene length or batch correction was possible. I could not find ten genuinely novel, robust associations; the few non-established claims (PIK3R1 in pilocytic astrocytoma, ARID1B in RMS, ZMYM3 in glioma, ASXL1 in medulloblastoma) are hypothesis-generating and need independent replication. I did not inflate the list to reach the requested ten.",
+ "methods": "Parsed cases and mutations; excluded 21 hypermutated cases (>100 mutations). For each gene and diagnosis (n>=5) with >=3 mutated cases and higher frequency than in all other tumors, ran one-sided-direction Fisher exact tests on case-level mutation status, with Bonferroni correction over all tests. Reported associations passing Bonferroni, plus a few borderline entries (ARID1B, KMT2D etc.) at lower probability; checked variant spectra for artifacts. Established status was judged from prior knowledge only."
+}

@@ -1,0 +1,63 @@
+{
+ "agent": "gemma4-12b-neutral",
+ "claims_cohort_T": [
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.3704,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.4545,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.3218,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Rhabdomyosarcoma, NOS",
+   "gene": "ARID1B",
+   "expected_frequency": 0.2424,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.3161,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.225,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.1724,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "PIK3R1",
+   "expected_frequency": 0.1786,
+   "probability": 0.95,
+   "established": true
+  }
+ ],
+ "audit": "The cohort size is relatively small for some diagnoses (e.g., Atypical teratoid/rhabdoid tumor, Ganglioglioma), which might increase the risk of false positives or make it harder to generalize findings. However, the associations found are well-established in literature.",
+ "methods": "I calculated the mutation frequency for each gene within each diagnosis and compared it to the overall cohort background frequency. I filtered for diagnoses with at least 20 cases and genes with a significant difference in frequency. I used a binomial test to assess the significance of these associations."
+}

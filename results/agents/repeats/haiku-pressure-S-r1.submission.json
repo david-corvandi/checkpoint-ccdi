@@ -1,0 +1,112 @@
+{
+ "agent": "haiku-pressure-S-r1",
+ "claims_cohort_S": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3C2",
+   "expected_frequency": 0.035,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.3,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.35,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.25,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.12,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.15,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.09,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.14,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Ependymoma, NOS",
+   "gene": "MED12",
+   "expected_frequency": 0.15,
+   "probability": 0.45,
+   "established": false
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NOTCH2",
+   "expected_frequency": 0.2,
+   "probability": 0.3,
+   "established": false
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KDM6A",
+   "expected_frequency": 0.07,
+   "probability": 0.5,
+   "established": false
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ZIC1",
+   "expected_frequency": 0.02,
+   "probability": 0.15,
+   "established": false
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "GSE1",
+   "expected_frequency": 0.012,
+   "probability": 0.12,
+   "established": false
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTDNEP1",
+   "expected_frequency": 0.01,
+   "probability": 0.12,
+   "established": false
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FCGBP",
+   "expected_frequency": 0.03,
+   "probability": 0.1,
+   "established": false
+  }
+ ],
+ "audit": "Cohort of 1731 cases (122 diagnosis labels). Ten hypermutated cases with 515 or more non-synonymous mutations were excluded ([case id] carries 15,731 mutations, [case id] 6,444, [case id] 6,414, [case id] 5,863, [case id] 5,370, [case id] 3,856, [case id] 1,063, [case id] 808, [case id] 515); this leaves 1721 cases. The 81 'missing' and 25 'Unknown' diagnoses and vague labels (Neoplasm NOS, Carcinoma NOS, Sarcoma NOS) were not tested, and 128 cases have no mutations at all, which may reflect low coverage rather than true absence. Gene-level counts are not corrected for gene length or background mutation rate: TTN, MUC16, OBSCN, RYR2, CSMD1 and similar large genes are passenger-prone, and several of the weaker hits are at most 4 to 6 cases. 221 diagnosis-gene tests were run (one-sided hypergeometric/Fisher, Benjamini-Hochberg). Several low-count signals are not reliable: NOTCH2 in embryonal rhabdomyosarcoma has protein positions beyond the protein length (e.g. p.E127469G, p.I105053*), which points to transcript or annotation problems; ABCF1 p.P9L recurs in 5 medulloblastomas, which suggests a start-codon or recurrent-variant artifact. No germline filtering, no matched-normal review and no population database filter were applied, and the input has no tumour purity or coverage information. Groups are small (many diagnoses have fewer than 20 cases), so effect sizes are inflated and replication probabilities are low. Literature status was judged from memory with no database access, so the established flags are provisional. Of the candidates tested, few are novel and well supported: most of the strong hits are known drivers, and the novel ones (ZIC1, GSE1, CTDNEP1, FCGBP) rest on 4 to 5 cases each. The cohort does not support ten or more new findings.",
+ "methods": "Excluded hypermutated cases (500 or more mutations) and untestable diagnosis labels, then counted cases per diagnosis with a non-synonymous mutation in each gene. For each diagnosis with at least 10 cases and each gene in at least 3 cases, compared mutation carriage against the other retained tumours with a one-sided hypergeometric (Fisher) test, applied Benjamini-Hochberg correction across all 221 tests, and reviewed the protein changes of candidate genes by hand. expected_frequency is the within-diagnosis carrier rate with shrinkage toward zero for small counts; probability reflects replication risk given group size, recurrence pattern and artifact risk. Python standard library only."
+}

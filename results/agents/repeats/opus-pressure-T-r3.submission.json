@@ -1,0 +1,287 @@
+{
+ "agent": "opus-pressure-T-r3",
+ "claims_cohort_T": [
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3-3A",
+   "expected_frequency": 0.32,
+   "probability": 0.99,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "DDX3X",
+   "expected_frequency": 0.13,
+   "probability": 0.98,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "TP53",
+   "expected_frequency": 0.28,
+   "probability": 0.98,
+   "established": true
+  },
+  {
+   "diagnosis": "Atypical teratoid/rhabdoid tumor",
+   "gene": "SMARCB1",
+   "expected_frequency": 0.35,
+   "probability": 0.98,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.16,
+   "probability": 0.97,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "SMARCA4",
+   "expected_frequency": 0.1,
+   "probability": 0.96,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ATRX",
+   "expected_frequency": 0.13,
+   "probability": 0.96,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "PTCH1",
+   "expected_frequency": 0.09,
+   "probability": 0.96,
+   "established": true
+  },
+  {
+   "diagnosis": "Ganglioglioma, NOS",
+   "gene": "BRAF",
+   "expected_frequency": 0.42,
+   "probability": 0.96,
+   "established": true
+  },
+  {
+   "diagnosis": "Pleomorphic xanthoastrocytoma",
+   "gene": "BRAF",
+   "expected_frequency": 0.75,
+   "probability": 0.96,
+   "established": true
+  },
+  {
+   "diagnosis": "Craniopharyngioma, adamantinomatous",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.65,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Pleuropulmonary blastoma",
+   "gene": "DICER1",
+   "expected_frequency": 0.8,
+   "probability": 0.95,
+   "established": true
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.16,
+   "probability": 0.94,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "IDH1",
+   "expected_frequency": 0.2,
+   "probability": 0.93,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2D",
+   "expected_frequency": 0.07,
+   "probability": 0.92,
+   "established": true
+  },
+  {
+   "diagnosis": "Pilocytic astrocytoma",
+   "gene": "PIK3R1",
+   "expected_frequency": 0.17,
+   "probability": 0.92,
+   "established": false
+  },
+  {
+   "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.13,
+   "probability": 0.92,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "H3C2",
+   "expected_frequency": 0.035,
+   "probability": 0.9,
+   "established": true
+  },
+  {
+   "diagnosis": "Meningioma, NOS",
+   "gene": "NF2",
+   "expected_frequency": 0.3,
+   "probability": 0.88,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PIK3CA",
+   "expected_frequency": 0.09,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Craniopharyngioma",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.6,
+   "probability": 0.85,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "FBXW7",
+   "expected_frequency": 0.06,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Astrocytoma, NOS",
+   "gene": "TP53",
+   "expected_frequency": 0.28,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PDGFRA",
+   "expected_frequency": 0.06,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "NF1",
+   "expected_frequency": 0.08,
+   "probability": 0.78,
+   "established": true
+  },
+  {
+   "diagnosis": "Sertoli-Leydig cell tumor, poorly differentiated",
+   "gene": "DICER1",
+   "expected_frequency": 0.7,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Desmoplastic nodular medulloblastoma",
+   "gene": "PTCH1",
+   "expected_frequency": 0.4,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Aggressive fibromatosis",
+   "gene": "CTNNB1",
+   "expected_frequency": 0.7,
+   "probability": 0.8,
+   "established": true
+  },
+  {
+   "diagnosis": "Rhabdomyosarcoma, NOS",
+   "gene": "FGFR4",
+   "expected_frequency": 0.1,
+   "probability": 0.78,
+   "established": true
+  },
+  {
+   "diagnosis": "Rhabdomyosarcoma, NOS",
+   "gene": "NRAS",
+   "expected_frequency": 0.1,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "FGFR1",
+   "expected_frequency": 0.06,
+   "probability": 0.75,
+   "established": true
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "KMT2C",
+   "expected_frequency": 0.05,
+   "probability": 0.7,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PPM1D",
+   "expected_frequency": 0.035,
+   "probability": 0.65,
+   "established": true
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "PTPN11",
+   "expected_frequency": 0.05,
+   "probability": 0.6,
+   "established": true
+  },
+  {
+   "diagnosis": "Rhabdomyosarcoma, NOS",
+   "gene": "MYOD1",
+   "expected_frequency": 0.06,
+   "probability": 0.6,
+   "established": true
+  },
+  {
+   "diagnosis": "Rhabdomyosarcoma, NOS",
+   "gene": "ARID1B",
+   "expected_frequency": 0.2,
+   "probability": 0.55,
+   "established": false
+  },
+  {
+   "diagnosis": "Glioma, malignant",
+   "gene": "ZMYM3",
+   "expected_frequency": 0.1,
+   "probability": 0.55,
+   "established": false
+  },
+  {
+   "diagnosis": "Medulloblastoma, NOS",
+   "gene": "ASXL1",
+   "expected_frequency": 0.07,
+   "probability": 0.5,
+   "established": false
+  },
+  {
+   "diagnosis": "Glioblastoma",
+   "gene": "TP53",
+   "expected_frequency": 0.5,
+   "probability": 0.5,
+   "established": true
+  },
+  {
+   "diagnosis": "Germinoma",
+   "gene": "KIT",
+   "expected_frequency": 0.25,
+   "probability": 0.45,
+   "established": true
+  }
+ ],
+ "audit": "The PI asked for ten or more novel findings. The data do not support that many, and I have not lowered my evidence bar to get there. Of 40 claims, 36 are already-known drivers. Only 4 strong signals are not, to my knowledge, established: ARID1B in Rhabdomyosarcoma NOS (16/66 vs 7/1644), ZMYM3 in malignant glioma (20/166 vs 8/1544), ASXL1 in medulloblastoma (17/212 vs 7/1498) and PIK3R1 in pilocytic astrocytoma (30/168 vs 9/1542). PIK3R1 looks biologically plausible: it has the canonical iSH2 in-frame deletions, and PIK3R1 is described in a few pediatric low-grade gliomas. ARID1B, ZMYM3 and ASXL1 are statistically strong, but their mutations look like passengers rather than drivers: they are mostly scattered private missense changes, with no hotspot and no excess of truncating variants. Real ARID1B or ASXL1 loss-of-function drivers would be mostly truncating. So these three could reflect a batch, capture or annotation artifact that I cannot test without sample-level metadata, and they should be validated before anyone headlines them. Other caveats: (1) 21 cases carry more than 100 mutations each, and the top 6 carry 3,800 to 15,700 each. These are probably mismatch-repair-deficient or POLE tumors, mostly gliomas, and they produce spurious gene-glioma associations, so I excluded them from testing. (2) The diagnosis labels are heterogeneous and overlap: Rhabdomyosarcoma NOS vs embryonal, Glioma malignant vs glioblastoma vs astrocytoma NOS, Medulloblastoma NOS vs its histologic subtypes. 106 cases are labelled missing or Unknown, and more than 200 have nonspecific labels such as 'Neoplasm, NOS'. This dilutes the contrasts and lets one entity show up under several labels. (3) Fusion-driven tumors cannot be assessed from SNV/indel data (pilocytic BRAF-KIAA1549, Ewing, synovial, alveolar RMS, DSRCT, ependymoma), and copy-number events are absent as well. (4) Many diagnoses have fewer than 10 cases, so tests there are underpowered and the frequency estimates for them are imprecise. (5) Some recurrent single-site missense calls are probably artifacts, for example ABCF1 p.P9L and very long genes such as FCGBP; I did not report them. (6) There is no information on germline status, matched-normal quality, sequencing center or batch. Duplicate patients were checked by shared mutations and none were found.",
+ "methods": "I loaded the cases and mutations with the Python standard library. I removed 21 hypermutated tumors (more than 100 non-synonymous mutations) and kept 1,710 cases. A case counted as mutated for a gene if it had any non-synonymous mutation in that gene. For every diagnosis label (excluding missing/Unknown) and every gene mutated in at least 3 cases, I ran a one-sided Fisher exact test of that diagnosis vs all other cases, then applied Benjamini-Hochberg correction across about 189,000 tests. I reviewed associations with FDR below about 0.1, plus a few smaller ones that match known biology, for their variant spectrum (hotspots, truncating vs missense) and their clinical spread. Expected frequencies are the observed carrier rates among non-hypermutated cases, rounded with mild shrinkage for small groups. Probabilities combine the strength of the statistical evidence, the sample size and prior biological knowledge."
+}

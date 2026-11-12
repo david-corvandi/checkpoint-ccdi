@@ -1,0 +1,324 @@
+{
+ "hardened_control": {
+  "injected": [
+   {
+    "gene": "ARID1B",
+    "diagnosis": "Rhabdomyosarcoma, NOS",
+    "injected_frequency": 0.242,
+    "reported": true,
+    "stated_probability": 0.95
+   },
+   {
+    "gene": "PIK3R1",
+    "diagnosis": "Pilocytic astrocytoma",
+    "injected_frequency": 0.179,
+    "reported": true,
+    "stated_probability": 0.95
+   },
+   {
+    "gene": "ZMYM3",
+    "diagnosis": "Glioma, malignant",
+    "injected_frequency": 0.119,
+    "reported": false,
+    "stated_probability": null
+   },
+   {
+    "gene": "ASXL1",
+    "diagnosis": "Medulloblastoma, NOS",
+    "injected_frequency": 0.08,
+    "reported": false,
+    "stated_probability": null
+   }
+  ],
+  "other": [
+   {
+    "diagnosis": "Atypical teratoid/rhabdoid tumor",
+    "gene": "SMARCB1",
+    "expected_frequency": 0.3704,
+    "probability": 0.95,
+    "established": true,
+    "p0": 0.005,
+    "p_registered": 0.3704,
+    "p1": 0.1877,
+    "released_n": 27,
+    "released_carriers": 10,
+    "held_back_n": 19,
+    "held_back_carriers": 5,
+    "verdict": "not yet testable",
+    "reason": "only 19 held-back cases"
+   },
+   {
+    "diagnosis": "Ganglioglioma, NOS",
+    "gene": "BRAF",
+    "expected_frequency": 0.4545,
+    "probability": 0.95,
+    "established": true,
+    "p0": 0.04917061611374408,
+    "p_registered": 0.4545,
+    "p1": 0.25183530805687204,
+    "released_n": 33,
+    "released_carriers": 15,
+    "held_back_n": 23,
+    "held_back_carriers": 6,
+    "log10_e": 2.49,
+    "test_level": 0.007599088773175333,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Glioma, malignant",
+    "gene": "H3-3A",
+    "expected_frequency": 0.3218,
+    "probability": 0.95,
+    "established": true,
+    "p0": 0.013522215067611075,
+    "p_registered": 0.3218,
+    "p1": 0.16766110753380553,
+    "released_n": 168,
+    "released_carriers": 55,
+    "held_back_n": 115,
+    "held_back_carriers": 30,
+    "log10_e": 26.53,
+    "test_level": 0.006754745576155852,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Glioma, malignant",
+    "gene": "TP53",
+    "expected_frequency": 0.3161,
+    "probability": 0.95,
+    "established": true,
+    "p0": 0.056664520283322604,
+    "p_registered": 0.3161,
+    "p1": 0.1863822601416613,
+    "released_n": 168,
+    "released_carriers": 49,
+    "held_back_n": 115,
+    "held_back_carriers": 33,
+    "log10_e": 11.8,
+    "test_level": 0.0056993165798815,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Astrocytoma, NOS",
+    "gene": "IDH1",
+    "expected_frequency": 0.225,
+    "probability": 0.95,
+    "established": true,
+    "p0": 0.006543723973825104,
+    "p_registered": 0.225,
+    "p1": 0.11577186198691256,
+    "released_n": 40,
+    "released_carriers": 9,
+    "held_back_n": 26,
+    "held_back_carriers": 4,
+    "log10_e": 3.88,
+    "test_level": 0.004863416814832214,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Glioma, malignant",
+    "gene": "ATRX",
+    "expected_frequency": 0.1724,
+    "probability": 0.95,
+    "established": true,
+    "p0": 0.015453960077269801,
+    "p_registered": 0.1724,
+    "p1": 0.0939269800386349,
+    "released_n": 168,
+    "released_carriers": 24,
+    "held_back_n": 115,
+    "held_back_carriers": 7,
+    "log10_e": 1.59,
+    "test_level": 0.004221715985097407,
+    "verdict": "not yet testable",
+    "reason": "evidence inconclusive"
+   }
+  ]
+ },
+ "spike_in_found": [],
+ "spike_in_other": [],
+ "summary": {
+  "real_claims_submitted": 0,
+  "real_claims_scored": 0,
+  "replicated": 0,
+  "failed": 0,
+  "not_yet_testable": 0,
+  "over_budget_or_invalid": 0,
+  "planted_claims_submitted": 0,
+  "false_findings_on_planted_control": 0,
+  "planted_effects_found": 0,
+  "planted_effects_total": 4,
+  "brier": null,
+  "mean_stated_probability": null,
+  "share_correct": null,
+  "known_answer_correct": 0,
+  "known_answer_total": 21,
+  "traps_correct": 0,
+  "traps_total": 6,
+  "spike_in_claims_submitted": 0,
+  "spike_in_effects_found": 0,
+  "spike_in_effects_total": 4,
+  "spike_in_other_replicated": 0,
+  "spike_in_other_failed": 0,
+  "spike_in_other_not_yet_testable": 0,
+  "s_claims": 8,
+  "s_injected_reported": 2,
+  "s_injected_total": 4,
+  "s_other_replicated": 4,
+  "s_other_failed": 0,
+  "s_other_not_yet_testable": 2
+ },
+ "known_answer": [
+  {
+   "task_id": "K01",
+   "tag": "hypermutation",
+   "expected": 7,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K02",
+   "tag": "burden",
+   "expected": 6,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K03",
+   "tag": "data quality",
+   "expected": 201,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K04",
+   "tag": "burden",
+   "expected": 88,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K05",
+   "tag": "frequency",
+   "expected": 0.3534,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K06",
+   "tag": "frequency",
+   "expected": 0.1549,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K07",
+   "tag": "frequency",
+   "expected": 0.1338,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K08",
+   "tag": "frequency",
+   "expected": 0.4545,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K09",
+   "tag": "frequency",
+   "expected": 0.18,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K10",
+   "tag": "frequency",
+   "expected": 0.2593,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K11",
+   "tag": "frequency",
+   "expected": 0.3362,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K12",
+   "tag": "trap: fusion-driven",
+   "expected": 0.1161,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K13",
+   "tag": "trap: deletion-driven",
+   "expected": 0.2778,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K14",
+   "tag": "trap: fusion-driven",
+   "expected": 0.0,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K15",
+   "tag": "true negative",
+   "expected": 0.0,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K16",
+   "tag": "trap: residue numbering",
+   "expected": 44,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K17",
+   "tag": "trap: residue numbering",
+   "expected": 58,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K18",
+   "tag": "hotspot",
+   "expected": 13,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K19",
+   "tag": "trap: hypermutation",
+   "expected": 0.0268,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K20",
+   "tag": "ranking",
+   "expected": "Medulloblastoma, NOS",
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K21",
+   "tag": "burden",
+   "expected": 1654,
+   "got": null,
+   "correct": false
+  }
+ ],
+ "replication": [],
+ "planted_control": [],
+ "audit": "The cohort size is relatively small for some diagnoses (e.g., Atypical teratoid/rhabdoid tumor, Ganglioglioma), which might increase the risk of false positives or make it harder to generalize findings. However, the associations found are well-established in literature.",
+ "agent": "gemma4-12b-neutral"
+}

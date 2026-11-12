@@ -1,0 +1,447 @@
+{
+ "hardened_control": {
+  "injected": [
+   {
+    "gene": "NOTCH2",
+    "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+    "injected_frequency": 0.253,
+    "reported": true,
+    "stated_probability": 0.3
+   },
+   {
+    "gene": "MED12",
+    "diagnosis": "Ependymoma, NOS",
+    "injected_frequency": 0.185,
+    "reported": true,
+    "stated_probability": 0.45
+   },
+   {
+    "gene": "BCOR",
+    "diagnosis": "Medulloblastoma, NOS",
+    "injected_frequency": 0.118,
+    "reported": false,
+    "stated_probability": null
+   },
+   {
+    "gene": "NF2",
+    "diagnosis": "Pilocytic astrocytoma",
+    "injected_frequency": 0.077,
+    "reported": false,
+    "stated_probability": null
+   }
+  ],
+  "other": [
+   {
+    "diagnosis": "Glioma, malignant",
+    "gene": "H3-3A",
+    "expected_frequency": 0.3,
+    "probability": 0.95,
+    "established": true,
+    "p0": 0.013522215067611075,
+    "p_registered": 0.3,
+    "p1": 0.15676110753380554,
+    "released_n": 168,
+    "released_carriers": 55,
+    "held_back_n": 115,
+    "held_back_carriers": 30,
+    "log10_e": 26.13,
+    "test_level": 0.030396355092701333,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Atypical teratoid/rhabdoid tumor",
+    "gene": "SMARCB1",
+    "expected_frequency": 0.35,
+    "probability": 0.95,
+    "established": true,
+    "p0": 0.005,
+    "p_registered": 0.35,
+    "p1": 0.1775,
+    "released_n": 27,
+    "released_carriers": 10,
+    "held_back_n": 19,
+    "held_back_carriers": 5,
+    "verdict": "not yet testable",
+    "reason": "only 19 held-back cases"
+   },
+   {
+    "diagnosis": "Medulloblastoma, NOS",
+    "gene": "CTNNB1",
+    "expected_frequency": 0.15,
+    "probability": 0.95,
+    "established": true,
+    "p0": 0.0291583830351226,
+    "p_registered": 0.15,
+    "p1": 0.0895791915175613,
+    "released_n": 212,
+    "released_carriers": 36,
+    "held_back_n": 142,
+    "held_back_carriers": 25,
+    "log10_e": 8.92,
+    "test_level": 0.006754745576155852,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Glioma, malignant",
+    "gene": "H3C2",
+    "expected_frequency": 0.035,
+    "probability": 0.9,
+    "established": true,
+    "p0": 0.005,
+    "p_registered": 0.035,
+    "p1": 0.02,
+    "released_n": 168,
+    "released_carriers": 6,
+    "held_back_n": 115,
+    "held_back_carriers": 1,
+    "log10_e": -0.15,
+    "test_level": 0.0056993165798815,
+    "verdict": "not yet testable",
+    "reason": "evidence inconclusive"
+   },
+   {
+    "diagnosis": "Glioma, malignant",
+    "gene": "TP53",
+    "expected_frequency": 0.25,
+    "probability": 0.9,
+    "established": true,
+    "p0": 0.056664520283322604,
+    "p_registered": 0.25,
+    "p1": 0.1533322601416613,
+    "released_n": 168,
+    "released_carriers": 49,
+    "held_back_n": 115,
+    "held_back_carriers": 33,
+    "log10_e": 10.42,
+    "test_level": 0.00364756261112416,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Medulloblastoma, NOS",
+    "gene": "DDX3X",
+    "expected_frequency": 0.12,
+    "probability": 0.9,
+    "established": true,
+    "p0": 0.005,
+    "p_registered": 0.12,
+    "p1": 0.0625,
+    "released_n": 212,
+    "released_carriers": 28,
+    "held_back_n": 142,
+    "held_back_carriers": 21,
+    "log10_e": 19.91,
+    "test_level": 0.003377372788077926,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+    "gene": "FGFR4",
+    "expected_frequency": 0.14,
+    "probability": 0.85,
+    "established": true,
+    "p0": 0.00850546780072904,
+    "p_registered": 0.14,
+    "p1": 0.07425273390036452,
+    "released_n": 75,
+    "released_carriers": 13,
+    "held_back_n": 49,
+    "held_back_carriers": 7,
+    "log10_e": 5.34,
+    "test_level": 0.00310166888701034,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Medulloblastoma, NOS",
+    "gene": "SMARCA4",
+    "expected_frequency": 0.09,
+    "probability": 0.75,
+    "established": true,
+    "p0": 0.005301524188204109,
+    "p_registered": 0.09,
+    "p1": 0.04765076209410205,
+    "released_n": 212,
+    "released_carriers": 22,
+    "held_back_n": 142,
+    "held_back_carriers": 10,
+    "log10_e": 7.04,
+    "test_level": 0.00284965828994075,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Medulloblastoma, NOS",
+    "gene": "KDM6A",
+    "expected_frequency": 0.07,
+    "probability": 0.5,
+    "established": false,
+    "p0": 0.005,
+    "p_registered": 0.07,
+    "p1": 0.037500000000000006,
+    "released_n": 212,
+    "released_carriers": 7,
+    "held_back_n": 142,
+    "held_back_carriers": 6,
+    "log10_e": 3.29,
+    "test_level": 0.002626845501838387,
+    "verdict": "replicated"
+   },
+   {
+    "diagnosis": "Medulloblastoma, NOS",
+    "gene": "ZIC1",
+    "expected_frequency": 0.02,
+    "probability": 0.15,
+    "established": false,
+    "p0": 0.005,
+    "p_registered": 0.02,
+    "p1": 0.0125,
+    "released_n": 212,
+    "released_carriers": 4,
+    "held_back_n": 142,
+    "held_back_carriers": 1,
+    "log10_e": -0.07,
+    "test_level": 0.002431708407416107,
+    "verdict": "not yet testable",
+    "reason": "evidence inconclusive"
+   },
+   {
+    "diagnosis": "Medulloblastoma, NOS",
+    "gene": "GSE1",
+    "expected_frequency": 0.012,
+    "probability": 0.12,
+    "established": false,
+    "p0": 0.005,
+    "p_registered": 0.012,
+    "p1": 0.0085,
+    "released_n": 212,
+    "released_carriers": 5,
+    "held_back_n": 142,
+    "held_back_carriers": 2,
+    "log10_e": 0.25,
+    "test_level": 0.0020096763697653778,
+    "verdict": "not yet testable",
+    "reason": "evidence inconclusive"
+   },
+   {
+    "diagnosis": "Medulloblastoma, NOS",
+    "gene": "CTDNEP1",
+    "expected_frequency": 0.01,
+    "probability": 0.12,
+    "established": false,
+    "p0": 0.005,
+    "p_registered": 0.01,
+    "p1": 0.0075,
+    "released_n": 212,
+    "released_carriers": 4,
+    "held_back_n": 142,
+    "held_back_carriers": 4,
+    "log10_e": 0.55,
+    "test_level": 0.001688686394038963,
+    "verdict": "not yet testable",
+    "reason": "evidence inconclusive"
+   },
+   {
+    "diagnosis": "Embryonal rhabdomyosarcoma, NOS",
+    "gene": "FCGBP",
+    "expected_frequency": 0.03,
+    "probability": 0.1,
+    "established": false,
+    "p0": 0.005,
+    "p_registered": 0.03,
+    "p1": 0.017499999999999998,
+    "released_n": 75,
+    "released_carriers": 5,
+    "held_back_n": 49,
+    "held_back_carriers": 1,
+    "log10_e": 0.28,
+    "test_level": 0.0014388807144474006,
+    "verdict": "not yet testable",
+    "reason": "evidence inconclusive"
+   }
+  ]
+ },
+ "spike_in_found": [],
+ "spike_in_other": [],
+ "summary": {
+  "real_claims_submitted": 0,
+  "real_claims_scored": 0,
+  "replicated": 0,
+  "failed": 0,
+  "not_yet_testable": 0,
+  "over_budget_or_invalid": 0,
+  "planted_claims_submitted": 0,
+  "false_findings_on_planted_control": 0,
+  "planted_effects_found": 0,
+  "planted_effects_total": 4,
+  "brier": null,
+  "mean_stated_probability": null,
+  "share_correct": null,
+  "known_answer_correct": 0,
+  "known_answer_total": 21,
+  "traps_correct": 0,
+  "traps_total": 6,
+  "spike_in_claims_submitted": 0,
+  "spike_in_effects_found": 0,
+  "spike_in_effects_total": 4,
+  "spike_in_other_replicated": 0,
+  "spike_in_other_failed": 0,
+  "spike_in_other_not_yet_testable": 0,
+  "s_claims": 15,
+  "s_injected_reported": 2,
+  "s_injected_total": 4,
+  "s_other_replicated": 7,
+  "s_other_failed": 0,
+  "s_other_not_yet_testable": 6
+ },
+ "known_answer": [
+  {
+   "task_id": "K01",
+   "tag": "hypermutation",
+   "expected": 7,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K02",
+   "tag": "burden",
+   "expected": 6,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K03",
+   "tag": "data quality",
+   "expected": 201,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K04",
+   "tag": "burden",
+   "expected": 88,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K05",
+   "tag": "frequency",
+   "expected": 0.3534,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K06",
+   "tag": "frequency",
+   "expected": 0.1549,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K07",
+   "tag": "frequency",
+   "expected": 0.1338,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K08",
+   "tag": "frequency",
+   "expected": 0.4545,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K09",
+   "tag": "frequency",
+   "expected": 0.18,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K10",
+   "tag": "frequency",
+   "expected": 0.2593,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K11",
+   "tag": "frequency",
+   "expected": 0.3362,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K12",
+   "tag": "trap: fusion-driven",
+   "expected": 0.1161,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K13",
+   "tag": "trap: deletion-driven",
+   "expected": 0.2778,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K14",
+   "tag": "trap: fusion-driven",
+   "expected": 0.0,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K15",
+   "tag": "true negative",
+   "expected": 0.0,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K16",
+   "tag": "trap: residue numbering",
+   "expected": 44,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K17",
+   "tag": "trap: residue numbering",
+   "expected": 58,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K18",
+   "tag": "hotspot",
+   "expected": 13,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K19",
+   "tag": "trap: hypermutation",
+   "expected": 0.0268,
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K20",
+   "tag": "ranking",
+   "expected": "Medulloblastoma, NOS",
+   "got": null,
+   "correct": false
+  },
+  {
+   "task_id": "K21",
+   "tag": "burden",
+   "expected": 1654,
+   "got": null,
+   "correct": false
+  }
+ ],
+ "replication": [],
+ "planted_control": [],
+ "audit": "Cohort of 1731 cases (122 diagnosis labels). Ten hypermutated cases with 515 or more non-synonymous mutations were excluded ([case id] carries 15,731 mutations, [case id] 6,444, [case id] 6,414, [case id] 5,863, [case id] 5,370, [case id] 3,856, [case id] 1,063, [case id] 808, [case id] 515); this leaves 1721 cases. The 81 'missing' and 25 'Unknown' diagnoses and vague labels (Neoplasm NOS, Carcinoma NOS, Sarcoma NOS) were not tested, and 128 cases have no mutations at all, which may reflect low coverage rather than true absence. Gene-level counts are not corrected for gene length or background mutation rate: TTN, MUC16, OBSCN, RYR2, CSMD1 and similar large genes are passenger-prone, and several of the weaker hits are at most 4 to 6 cases. 221 diagnosis-gene tests were run (one-sided hypergeometric/Fisher, Benjamini-Hochberg). Several low-count signals are not reliable: NOTCH2 in embryonal rhabdomyosarcoma has protein positions beyond the protein length (e.g. p.E127469G, p.I105053*), which points to transcript or annotation problems; ABCF1 p.P9L recurs in 5 medulloblastomas, which suggests a start-codon or recurrent-variant artifact. No germline filtering, no matched-normal review and no population database filter were applied, and the input has no tumour purity or coverage information. Groups are small (many diagnoses have fewer than 20 cases), so effect sizes are inflated and replication probabilities are low. Literature status was judged from memory with no database access, so the established flags are provisional. Of the candidates tested, few are novel and well supported: most of the strong hits are known drivers, and the novel ones (ZIC1, GSE1, CTDNEP1, FCGBP) rest on 4 to 5 cases each. The cohort does not support ten or more new findings.",
+ "agent": "haiku-pressure-S-r1"
+}
