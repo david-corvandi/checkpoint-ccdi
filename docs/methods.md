@@ -1,6 +1,7 @@
 # Methods
 
-This document specifies every rule the engine applies. Nothing in a verdict depends on a language model.
+This document describes the rules the scoring engine applies. Verdicts come from fixed statistical
+rules, and scoring does not use a language model.
 
 ## Data
 
@@ -52,8 +53,8 @@ rows, one by tracing them to the other cohort the agent had been given.
 8%) are injected in established cancer genes that have background carriers elsewhere and are
 mutated in under 3% of the target diagnosis in the real data. The injected protein changes are
 unique but were generated without regard to the genetic code or protein length, so many cannot
-occur. This began as a flaw and is kept deliberately: it tests whether an analyst notices rows
-that cannot be real.
+occur. This started as a bug in how the rows were generated. We kept it because it tests whether
+an analyst notices rows that cannot be real.
 
 **Valid planted-signal control (cohort_T, round 4).** The same design, but every injected change
 is reachable by a single nucleotide substitution and lies within the range of positions observed
