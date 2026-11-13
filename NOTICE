@@ -1,0 +1,10 @@
+Checkpoint
+Copyright 2026 Corvandi LLC (dba Corvandi Labs)
+
+This software is licensed under the Apache License, Version 2.0. See LICENSE.
+
+No patient-level data is distributed in this repository. The tables the software
+builds, and the results in results/, are derived from open-access files of the
+CCDI Molecular Characterization Initiative (dbGaP phs002790) distributed by the
+NCI Genomic Data Commons, and remain subject to the GDC data access policies:
+https://gdc.cancer.gov/access-data/data-access-policies
